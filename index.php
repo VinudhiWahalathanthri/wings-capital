@@ -46,8 +46,7 @@
 
         /* Navbar styles */
         .navbar {
-            padding-top: 20px;
-            padding-bottom: 20px;
+            /* padding-bottom: 20px; */
             transition: all 0.5s ease;
         }
 
@@ -84,7 +83,7 @@
 
         /* Add padding to body to prevent content from hiding under fixed navbar */
         body.fixed-nav {
-            padding-top: 80px;
+            padding-top: 50px;
         }
 
         .experience-container {
@@ -113,6 +112,10 @@
         li::marker {
             color: #f9b233;
         }
+
+        .text-gold {
+            color: #cea844;
+        }
     </style>
 </head>
 
@@ -120,83 +123,133 @@
     <div class="container-fluid">
         <div class="col-12">
             <div class="row">
-                <!-- Navbar section -->
                 <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent navbar-fixed">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img style="width: 262px;" src="./assets/images/logoGold.png" id="logo-img" /></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="container-fluid position-relative">
+
+                        <!-- Left: Logo -->
+                        <a class="navbar-brand" href="#">
+                            <img style="width: 100px;" src="./assets/images/main/Wings.png" id="logo-img" />
+                        </a>
+
+                        <!-- Mobile toggle -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav mx-auto gap-4">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="events-and-media.php">News</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="about.php">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Honors</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Services</a>
-                                </li>
+
+                        <!-- Center: Nav links -->
+                        <div class="collapse navbar-collapse justify-content-center" style="margin-left:-120px;" id="navbarNav">
+                            <ul class="navbar-nav gap-4 ">
+                                <li class="nav-item"><a class="nav-link text-black" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link text-black" href="events-and-media.php">News</a></li>
+                                <li class="nav-item"><a class="nav-link text-black" href="about.php">About</a></li>
+                                <li class="nav-item"><a class="nav-link text-black" href="#">Honors</a></li>
+                                <li class="nav-item"><a class="nav-link text-black" href="#">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link text-black" href="#">Services</a></li>
                             </ul>
-                            <div class="d-flex">
-                                <a href="secureLogin.php" class="btn h-btn me-2" style="background-color:rgb(255, 255, 255);border: thin solid #A4A4A4;">Secure Login</a>
-                                <a href="consult.php" class="btn h-btn me-2" style="background-color: #FBAF37; ">Book Consultation</a>
-                            </div>
                         </div>
+
+                        <!-- Right: Buttons -->
+                        <div class="d-flex align-items-center position-absolute end-0 me-3">
+                            <a href="secureLogin.php"
+                                class="btn h-btn me-2 rounded-1 d-flex align-items-center justify-content-center"
+                                style="background-color: rgb(255, 255, 255); border: thin solid #A4A4A4; text-align: center; height: 40px; min-width: 130px;">
+                                Request Loan
+                            </a>
+
+                            <a href="consult.php"
+                                class="btn h-btn me-2 pe-4 ps-4 gold-btn rounded-1 d-flex align-items-center justify-content-center"
+                                style="height: 40px; min-width: 150px;">
+                                Book Consultation
+                            </a>
+                        </div>
+
+                        <!-- Gold button style -->
+                        <style>
+                            .gold-btn {
+                                background: linear-gradient(to right, #FFD97A, #CFA02E);
+                                color: #000;
+                                padding: 10px;
+                                border-radius: 4px;
+                                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+                                transition: all 0.2s ease-in-out;
+                            }
+
+                            .gold-btn:hover {
+                                background: linear-gradient(to right, #FFE08A, #D4A937);
+                                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+                                transform: translateY(-1px);
+                            }
+
+                            .gold-btn:active {
+                                background: linear-gradient(to right, #D4A937, #B8871B);
+                                transform: translateY(1px);
+                                box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+                            }
+                        </style>
                     </div>
                 </nav>
 
-                <!--  Main Hero Section -->
-                <div class="col-12 bg-dark-wood">
-                    <div class="row">
-                        <div class="col-md-12 min-vh-100" style="padding-left: 60px; padding-right: 60px;">
-                           
+                <div class="col-md-12" style="margin-bottom: 89px; margin-top: 120px;">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-6 position-relative text-center">
+
+                            <h1 class="text-center" style="font-size: 60px; font-family: 'Lato-Bold'; margin-top: 65px;">
+                                Meet and Explore Markets
+                            </h1>
+
+                            <div class="position-relative d-inline-block">
+                                <h1 class="text-center fst-italic" style="font-size: 60px; font-family: 'Lato-Bold'; position: relative; z-index: 2;">
+                                    According to your reach
+                                </h1>
+                                <div style="
+          background-color: #fff5b2d2;
+          width: 85%;
+          height: 25px;
+          position: absolute;
+          left: 50%;
+          bottom: 5px;
+          transform: translateX(-50%);
+          z-index: 1;
+          border-radius: 4px;
+        "></div>
+                            </div>
+
+                            <!-- Paragraph -->
+                            <div class="text-center" style="margin-top: 40px;">
+                                <p style="font-size: 18px; color: #323232;">
+                                    Musk founded Space Exploration Technologies, or SpaceX, in May 2002.
+                                    Musk is chief executive officer (CEO) and chief technology officer (CTO) of the Hawthorne, California-based company.
+                                    SpaceX develops and manufactures space launch vehicles with a focus on advancing the state of rocket technology.
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
 
 
-                <?php include "./components/footer.php" ?>
+
+
             </div>
         </div>
         <script src="script"> </script>
-        <!-- Bootstrap JS and your custom JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <script>
-            // JavaScript for navbar scroll effect
             document.addEventListener("DOMContentLoaded", function() {
                 var navbar = document.querySelector('.navbar');
                 var logoImg = document.getElementById('logo-img');
                 var originalLogoSrc = logoImg.src;
-                var whiteBgLogoSrc = originalLogoSrc.replace('logoGold.png', 'logo.png'); // Assuming you have a dark version of the logo
+                var whiteBgLogoSrc = originalLogoSrc.replace('logoGold.png', 'logo.png');
 
-                // Function to handle scroll events
                 function handleScroll() {
                     if (window.scrollY > 50) {
                         navbar.classList.add('navbar-scrolled');
-                        // Optionally change logo to dark version when background is white
-                        // logoImg.src = whiteBgLogoSrc;
                     } else {
                         navbar.classList.remove('navbar-scrolled');
-                        // Return to original logo when transparent
-                        // logoImg.src = originalLogoSrc;
                     }
                 }
-
-                // Add scroll event listener
                 window.addEventListener('scroll', handleScroll);
-
-                // Initial check in case page is loaded scrolled down
                 handleScroll();
             });
         </script>
@@ -215,13 +268,11 @@
                     }
                 }, stepTime);
             }
-
-            // Call the animation function when the page loads
             window.addEventListener('load', () => {
-                animateNumber('consultationCount', 30); // Change 30 to any number you want
-                animateNumber('successfullRes', 96); // Change 30 to any number you want
-                animateNumber('satisfiedCus', 30); // Change 30 to any number you want
-                animateNumber('awardsRec', 30); // Change 30 to any number you want
+                animateNumber('consultationCount', 30);
+                animateNumber('successfullRes', 96);
+                animateNumber('satisfiedCus', 30);
+                animateNumber('awardsRec', 30);
             });
         </script>
 
