@@ -9,6 +9,7 @@
     <link rel="icon" href="./assets/images/icon.png">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="uikit.css">
 
     <style>
         .bg-dark-wood {
@@ -203,19 +204,18 @@
                                     According to your reach
                                 </h1>
                                 <div style="
-          background-color: #fff5b2d2;
-          width: 85%;
-          height: 25px;
-          position: absolute;
-          left: 50%;
-          bottom: 5px;
-          transform: translateX(-50%);
-          z-index: 1;
-          border-radius: 4px;
-        "></div>
+                                    background-color: #fff5b2d2;
+                                    width: 85%;
+                                    height: 25px;
+                                    position: absolute;
+                                    left: 50%;
+                                    bottom: 20px;
+                                    transform: translateX(-50%);
+                                    z-index: 1;
+                                    border-radius: 4px;
+                                    "></div>
                             </div>
 
-                            <!-- Paragraph -->
                             <div class="text-center" style="margin-top: 40px;">
                                 <p style="font-size: 18px; color: #323232;">
                                     Musk founded Space Exploration Technologies, or SpaceX, in May 2002.
@@ -223,18 +223,386 @@
                                     SpaceX develops and manufactures space launch vehicles with a focus on advancing the state of rocket technology.
                                 </p>
                             </div>
-
                         </div>
                     </div>
                 </div>
 
+                <div class="col-12" style="background-color: #0c0c0c;margin-top:100px;">
+                    <div class="row mb-5">
+                        <div class="col-12 mb-5" style="margin-top: -120px;">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 rounded-3 d-flex justify-content-center align-items-center">
+                                    <img
+                                        src="./assets/images/dubai.png"
+                                        alt="Market Image"
+                                        class="img-fluid rounded-3 text-center"
+                                        style="width: 90%; height: 500px; border-radius: 10px;">
+                                </div>
+                            </div>
+                        </div>
 
 
 
+                    </div>
+                </div>
+
+                <div class="container text-center py-5" style="max-width:1200px;">
+
+  <h1 style="font-size:46px; font-weight:700; line-height:1.2;">
+    International expansion <br>
+    consultants <span style="color:#4BE3A3;">trusted by</span> <br>
+    <span style="color:#4BE3A3;">over 100 companies</span>
+  </h1>
+
+  <p style="font-size:16px; max-width:700px; margin:20px auto; color:#555;">
+    Over 20 years, we’ve built strong relationships with some great companies. 
+    We’re proud to work with a range of established brands and emerging startups 
+    across Poland, Scandinavia and beyond.
+  </p>
+
+  <div class="row text-center justify-content-center mt-4">
+
+    <!-- 15 logos (same image for now) -->
+    <!-- Row 1 -->
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+
+    <!-- Row 2 -->
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+
+    <!-- Row 3 -->
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+    <div class="col-4 col-md-2 py-3">
+      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+    </div>
+
+  </div>
+</div>
+
+
+                <section class="py-5">
+                    <div class="container">
+                        <!-- Header Row -->
+                        <div class="row align-items-center mb-5">
+                            <div class="col-md-8">
+                                <h6 class="text-uppercase fw-bold text-muted mb-2">Our Services</h6>
+                                <h2 class="fw-bold" style="font-size: 2.5rem;">
+                                    We’re Transforming Companies for<br>
+                                    <span class="fst-italic" style="font-weight: 500;font-family: Times New Roman;">Global Success</span>
+                                    <div style="
+            background-color: #fff5b2d2;
+            width: 25%;
+            height: 25px;
+            margin-top:-25px;
+          "></div>
+                                </h2>
+                            </div>
+                            <div class="col-md-4 border-start border-3 ps-4" style="border-color: #B8871B;">
+                                <p class="mb-0 fw-semibold fs-5">
+                                    Serving Businesses from Sweden, Poland, USA,<br>
+                                    Germany, UK, Finland, Norway, and more
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Services Cards -->
+                        <div class="row g-4">
+                            <!-- Card 1 (Active / Highlighted) -->
+                            <div class="col-md-4" uk-scrollspy="cls: uk-animation-float; target: > div; delay: 200; repeat: false">
+                                <div class="p-4 rounded-3 text-white custom-card-highlight">
+                                    <div class="mb-3" style="width: 40px; height: 40px; background: white; border-radius: 6px;"></div>
+                                    <h5 class="fw-bold">Wealth Management</h5>
+                                    <p class="mb-4">
+                                        Helping clients grow, manage, and protect their wealth through tailored financial strategies,
+                                        including investment planning and portfolio diversification.
+                                    </p>
+                                    <a href="#" class="text-white fw-semibold text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-md-4" uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 400; repeat: false">
+                                <div class="p-4 rounded-3 custom-card">
+                                    <div class="mb-3" style="width: 40px; height: 40px; background: #E6B84A; border-radius: 6px;"></div>
+                                    <h5 class="fw-bold">Wealth Management</h5>
+                                    <p class="mb-4">
+                                        Helping clients grow, manage, and protect their wealth through tailored financial strategies,
+                                        including investment planning and portfolio diversification.
+                                    </p>
+                                    <a href="#" class="text-warning fw-semibold text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-md-4" uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 600; repeat: false">
+                                <div class="p-4 rounded-3 custom-card">
+                                    <div class="mb-3" style="width: 40px; height: 40px; background: #E6B84A; border-radius: 6px;"></div>
+                                    <h5 class="fw-bold">Wealth Management</h5>
+                                    <p class="mb-4">
+                                        Helping clients grow, manage, and protect their wealth through tailored financial strategies,
+                                        including investment planning and portfolio diversification.
+                                    </p>
+                                    <a href="#" class="text-warning fw-semibold text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-md-4" uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 800; repeat: false">
+                                <div class="p-4 rounded-3 custom-card">
+                                    <div class="mb-3" style="width: 40px; height: 40px; background: #E6B84A; border-radius: 6px;"></div>
+                                    <h5 class="fw-bold">Wealth Management</h5>
+                                    <p class="mb-4">
+                                        Helping clients grow, manage, and protect their wealth through tailored financial strategies,
+                                        including investment planning and portfolio diversification.
+                                    </p>
+                                    <a href="#" class="text-warning fw-semibold text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+
+                            <!-- Card 5 -->
+                            <div class="col-md-4" uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 1000; repeat: false">
+                                <div class="p-4 rounded-3 custom-card">
+                                    <div class="mb-3" style="width: 40px; height: 40px; background: #E6B84A; border-radius: 6px;"></div>
+                                    <h5 class="fw-bold">Wealth Management</h5>
+                                    <p class="mb-4">
+                                        Helping clients grow, manage, and protect their wealth through tailored financial strategies,
+                                        including investment planning and portfolio diversification.
+                                    </p>
+                                    <a href="#" class="text-warning fw-semibold text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+
+                            <!-- Card 6 -->
+                            <div class="col-md-4" uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 1200; repeat: false">
+                                <div class="p-4 rounded-3 custom-card">
+                                    <div class="mb-3" style="width: 40px; height: 40px; background: #E6B84A; border-radius: 6px;"></div>
+                                    <h5 class="fw-bold">Wealth Management</h5>
+                                    <p class="mb-4">
+                                        Helping clients grow, manage, and protect their wealth through tailored financial strategies,
+                                        including investment planning and portfolio diversification.
+                                    </p>
+                                    <a href="#" class="text-warning fw-semibold text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="col-12 p-5  justify-content-center align-items-center" style="background-color:#fbfbfb;">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="row justify-content-center align-items-center">
+
+                            <!-- Left Image Placeholder -->
+                            <div class="col-md-4 mb-4 mb-md-0 position-relative">
+                                <div style="width:100%; height:350px; background:#ddd;"></div>
+
+                                <!-- Badge -->
+                                <div style="
+        position:absolute; 
+        top:15px; left:15px; 
+        background:#e8b948; 
+        padding:10px 15px; 
+        border-radius:5px;
+        color:#fff;
+        font-weight:600;
+      ">
+                                    <span style="font-size:22px; display:block;">25</span>
+                                    <span style="font-size:12px;">Years of Experience</span>
+                                </div>
+                            </div>
+
+                            <!-- Right Content -->
+                            <div class="col-md-6">
+
+                                <p style="font-size:12px; letter-spacing:2px; color:#777;">ABOUT US</p>
+                                <h2 style="font-weight:700;">Who We Are</h2>
+                                <p style="font-style:italic; color:#555;">Wings Capital Management Consultancies</p>
+
+                                <p style="color:#666; font-size:15px; line-height:1.7;">
+                                    Welcome to Business Boost 360. At Business Boost 360, we are a dedicated team of experts
+                                    passionate about empowering small and medium enterprises (SMEs) to thrive in the global
+                                    marketplace. With our comprehensive services, including export consulting, market research,
+                                    branding, website development, and more, we aim to be the driving force behind SMEs' export.
+                                    Partner with us to unlock opportunities, achieve sustainable growth, and make a positive
+                                    impact on the global economy.
+                                </p>
+
+                                <!-- Buttons & Phone -->
+                                <div class="d-flex align-items-center mt-3">
+                                    <a href="#" class="btn" style="background:#e8b948; color:#fff; padding:10px 20px; border-radius:5px;">
+                                        Book Consultation
+                                    </a>
+
+                                    <div class="d-flex align-items-center ms-4">
+                                        <div style="
+            width:40px; 
+            height:40px; 
+            border:1px solid #e8b948; 
+            border-radius:50%;
+            display:flex; 
+            align-items:center; 
+            justify-content:center;
+            margin-right:10px;
+          ">
+                                            <i class="bi bi-telephone-fill" style="color:#e8b948;"></i>
+                                        </div>
+                                        <div>
+                                            +94 (77) 795–7751<br>
+                                            <small style="color:#777;">Call for Support</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container py-5">
+
+                    <!-- Title -->
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2 style="font-weight:700;">Recent blog posts</h2>
+                        <a href="#" style="font-size:14px; color:#1a73e8; text-decoration:none;">See all posts</a>
+                    </div>
+
+                    <!-- Featured Post -->
+                    <div class="row mb-5">
+                        <div class="col-md-6">
+                            <img src="assets/images/dubai.png"
+                                style="width:100%; height:300px; object-fit:cover; border-radius:10px;">
+                        </div>
+
+                        <div class="col-md-6 d-flex flex-column justify-content-center">
+                            <small style="color:#666;">30 Mar 2024</small>
+                            <h3 style="font-weight:700; margin-top:10px;">
+                                International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                            </h3>
+                            <p style="color:#666; font-size:14px; line-height:1.6;">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ullam, nam fugit necessitatibus unde atque sint ipsum nobis assumenda ipsa velit officiis architecto eius sequi aliquid expedita reiciendis quos nesciunt.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark rounded-pill"
+                                style="width:max-content; padding:5px 15px;">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Grid -->
+                    <div class="row g-4">
+
+                        <!-- Card 1 -->
+                        <div class="col-md-4">
+                            <img src="assets/images/dubai.png"
+                                style="width:100%; height:240px; object-fit:cover; border-radius:12px;">
+                            <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                            <h6 style="font-weight:700; margin-top:5px;">
+                                International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                            </h6>
+                            <p style="color:#666; font-size:14px;">
+                                At Explore Markets, we specialize in supporting businesses expanding into Central
+                                and Eastern Europe (CEE).
+                            </p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-md-4">
+                            <img src="assets/images/dubai.png"
+                                style="width:100%; height:240px; object-fit:cover; border-radius:12px;">
+                            <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                            <h6 style="font-weight:700; margin-top:5px;">
+                                International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                            </h6>
+                            <p style="color:#666; font-size:14px;">
+                                At Explore Markets, we specialize in supporting businesses expanding into Central
+                                and Eastern Europe (CEE).
+                            </p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-md-4">
+                            <img src="assets/images/dubai.png"
+                                style="width:100%; height:240px; object-fit:cover; border-radius:12px;">
+                            <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                            <h6 style="font-weight:700; margin-top:5px;">
+                                International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                            </h6>
+                            <p style="color:#666; font-size:14px;">
+                                At Explore Markets, we specialize in supporting businesses expanding into Central
+                                and Eastern Europe (CEE).
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <style>
+                    .custom-card-highlight {
+                        background-color: #E6B84A;
+                        color: white;
+                        transition: transform 0.3s ease, border 0.3s ease;
+                        border: 2px solid transparent;
+                    }
+
+                    .custom-card {
+                        background-color: #F8F8F8;
+                        transition: transform 0.3s ease, border 0.3s ease;
+                        border: 2px solid transparent;
+                    }
+
+                    /* Hover effect */
+                    .custom-card-highlight:hover,
+                    .custom-card:hover {
+                        border-color: #B8871B;
+                        transform: translateY(-10px);
+                        box-shadow: 0 10px 20px rgba(184, 135, 27, 0.3);
+                        cursor: pointer;
+                    }
+                </style>
             </div>
         </div>
         <script src="script"> </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="uikit.js"></script>
+        <script src="uikit.min.js"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 var navbar = document.querySelector('.navbar');
