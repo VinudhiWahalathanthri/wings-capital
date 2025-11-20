@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
 
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- UIkit -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.10/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/solvior-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.24/mmenu.css">
+
+
+    <link rel="stylesheet" href="main.css">
 
     <style>
         /* Only small required styles */
         .contact-card {
             border: 1px solid #e7e7e7;
-            border-radius: 8px;
             padding: 40px 20px;
             text-align: center;
             background: #fff;
@@ -32,12 +41,140 @@
             justify-content: center;
             margin: auto;
             margin-bottom: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-icon span {
+            color: #333;
+            font-size: 2rem;
+            transition: color 0.3s;
+        }
+
+        /* Hover effect */
+        .contact-card:hover .contact-icon {
+            background-color: #D4AF37;
+            /* gold */
+        }
+
+        .contact-card:hover .contact-icon span {
+            color: #fff;
+            animation: shake 0.5s;
+        }
+
+        /* Shake animation */
+        @keyframes shake {
+            0% {
+                transform: translateX(0);
+            }
+
+            20% {
+                transform: translateX(-5px);
+            }
+
+            40% {
+                transform: translateX(5px);
+            }
+
+            60% {
+                transform: translateX(-5px);
+            }
+
+            80% {
+                transform: translateX(5px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
         }
 
         .map-box iframe {
             width: 100%;
             height: 500px;
             border: 0;
+        }
+    </style>
+    <style>
+        .hero-section {
+            position: relative;
+            height: 550px;
+            background: url('assets/images/pages/people.png') center center / cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.72);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .breadcrumb-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+            font-size: 12px;
+        }
+
+        /* Minimal input style */
+        .minimal-input {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #dcdcdc;
+            padding: 8px 0;
+            font-size: 15px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .minimal-input:focus {
+            border-bottom: 1px solid #0d6efd;
+            /* blue or your brand colour */
+        }
+
+        /* For labels */
+        .custom-label {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        /* Minimal select */
+        .minimal-select {
+            border: none;
+            border-bottom: 1px solid #dcdcdc;
+            background: transparent;
+            padding: 8px 0;
+            font-size: 15px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .minimal-select:focus {
+            border-bottom: 1px solid #0d6efd;
+            box-shadow: none;
+        }
+
+        /* Remove Bootstrap default background for select */
+        .minimal-select option {
+            background: #fff;
+            color: #333;
         }
     </style>
 </head>
@@ -50,25 +187,26 @@
 
             <?php include 'header.php'; ?>
 
-            <div class="col-12 justify-content-center align-items-center text-center" style="background-color:#f1f6f5;height:300px;">
-                <div class="row">
-                    <div class="col-12" style="background-color:#f1f6f5;">
-                        <div class="row justify-content-center align-items-center h-100" uk-scrollspy="target: > div; cls: uk-animation-slide-top; delay: 500">
-                            <div class="col-md-6 col-sm-8 col-10  text-center p-5 ">
-
-                                <h1 class="fw-bold" style="font-family: Royce;">Shopping Cart</h1>
-                                <p><a href="home.php" class="text-decoration-none text-secondary">Home / Shopping Cart</a> / Cart Details</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="hero-section d-flex justify-content-center align-items-center text-center">
+                <div class="hero-content p-4">
+                    <h1 class="fw-bold">Contact Us</h1>
+                    <p>
+                        <a href="home.php" class="breadcrumb-badge text-decoration-none mt-3">
+                            Home / Contact us
+                        </a>
+                    </p>
                 </div>
             </div>
 
+
             <!-- Top Section -->
-            <div class="container text-center mt-5">
+            <div class="col-10 text-center" style="padding:180px;margin-top:-100px;">
 
-
-                <p class="text-primary fw-bold">• CONTACT US •</p>
+                <p class="text-primary fw-bold d-flex align-items-center justify-content-center gap-2">
+                    <span style="font-size: 10px;">•</span>
+                    CONTACT US
+                    <span style="font-size: 10px;">•</span>
+                </p>
                 <h1 class="fw-bold">Our contact information</h1>
 
                 <div class="row mt-5 g-4">
@@ -80,7 +218,7 @@
                                 <span uk-icon="icon: mail; ratio: 2"></span>
                             </div>
                             <h4 class="fw-bold">Email us</h4>
-                            <p>solvior@gmail.com<br>support@gmail.com</p>
+                            <p class="mt-3">solvior@gmail.com<br>support@gmail.com</p>
                         </div>
                     </div>
 
@@ -91,7 +229,7 @@
                                 <span uk-icon="icon: receiver; ratio: 2"></span>
                             </div>
                             <h4 class="fw-bold">Call us</h4>
-                            <p>+526-8214-5622<br>+226-3565-2552</p>
+                            <p class="mt-3">+526-8214-5622<br>+226-3565-2552</p>
                         </div>
                     </div>
 
@@ -102,7 +240,7 @@
                                 <span uk-icon="icon: location; ratio: 2"></span>
                             </div>
                             <h4 class="fw-bold">Our Location</h4>
-                            <p>
+                            <p class="mt-3">
                                 993 Renner Burg, West Rond,<br>
                                 MT 94251-030
                             </p>
@@ -116,78 +254,100 @@
                                 <span uk-icon="icon: comments; ratio: 2"></span>
                             </div>
                             <h4 class="fw-bold">Live chat</h4>
-                            <p>livechat@solvior.com<br><a href="#" class="text-primary">Need help?</a></p>
+                            <p class="mt-3">livechat@solvior.com<br><a href="#" class="text-primary">Need help?</a></p>
                         </div>
                     </div>
 
                 </div>
-            </div>
 
-            <!-- Bottom Section -->
-            <div class="container mt-5">
-                <div class="row g-4">
 
-                    <!-- Form -->
-                    <div class="col-lg-6 p-4" style="border:1px solid #e7e7e7; border-radius:8px;">
-                        <h2 class="fw-bold mb-4">
-                            Feel free to <span class="text-primary">get in touch</span> or visit our location.
-                        </h2>
+                <!-- Bottom Section -->
+                <div class="col-12 mt-5 tj-contact-area">
+                    <div class="row">
 
-                        <form>
+                        <!-- Form -->
+                        <div class="col-lg-6 contact-form-one p-4" style="border:1px solid #e7e7e7;margin-left:10px;width:660px;">
+                            <h2 class=" mb-4 text-start p-4">
+                                Feel free to <span style="color: #D4AF37;">get in touch</span> or </br> visit our location.
+                            </h2>
 
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <label class="form-label">Full name*</label>
-                                    <input type="text" class="form-control" required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <label class="form-label">Email address*</label>
-                                    <input type="email" class="form-control" required>
-                                </div>
+                         <div class="col-12 p-4">
+                            <div class="row">
+                                  <form action="#">
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <div class="form-input">
+                                 <input type="text" id="first" name="name" placeholder="Full name*" required="">
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="form-input">
+                                 <input type="email" id="emailOne" name="email" placeholder="Email address*" required="">
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="form-input">
+                                 <input type="tel" id="tel" name="tel" placeholder="Phone number*" required="">
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="form-input">
+                                 <div class="tj-nice-select-box">
+                                    <div class="tj-select">
+                                       <select class="nice-select" style="display: none;">
+                                          <option>Chose a option</option>
+                                          <option value="1">IT consulting</option>
+                                          <option value="2">Market research</option>
+                                          <option value="3">Business process</option>
+                                          <option value="4">Business consultancy</option>
+                                          <option value="5">Digital marketing</option>
+                                          <option value="6">Branding design</option>
+                                       </select><div class="nice-select" tabindex="0"><span class="current">Chose a option</span><ul class="list"><li data-value="Chose a option" class="option selected">Chose a option</li><li data-value="1" class="option">IT consulting</li><li data-value="2" class="option">Market research</li><li data-value="3" class="option">Business process</li><li data-value="4" class="option">Business consultancy</li><li data-value="5" class="option">Digital marketing</li><li data-value="6" class="option">Branding design</li></ul></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12">
+                              <div class="form-input input-textarea">
+                                 <textarea id="message" name="message" placeholder="Type message"></textarea>
+                              </div>
+                           </div>
+                           <div class="submit-button">
+                              <button type="submit" class="tj-primary-btn">
+                                 <span class="btn_inner">
+                                    <span class="btn_icon">
+                                       <span>
+                                          <i class="tji-arrow-right"></i>
+                                          <i class="tji-arrow-right"></i>
+                                       </span>
+                                    </span>
+                                    <span class="btn_text">
+                                       <span>Send message</span>
+                                    </span>
+                                 </span>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
                             </div>
+                         </div>
+                        </div>
 
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <label class="form-label">Phone number*</label>
-                                    <input type="text" class="form-control" required>
-                                </div>
+                        <!-- Map -->
+                        <div class="col-lg-5 map-box">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48319.26803365535!2d-74.026675!3d40.713955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b864eaa23f%3A0xbbb6b7f02dc045a!2sNew%20York%2C%20USA!5e0!3m2!1sen!2slk!4v1700000000000"
+                                allowfullscreen=""
+                                loading="lazy">
+                            </iframe>
+                        </div>
 
-                                <div class="col-md-6">
-                                    <label class="form-label">Choose a option</label>
-                                    <select class="form-select">
-                                        <option selected disabled>Select</option>
-                                        <option>General Inquiry</option>
-                                        <option>Support</option>
-                                        <option>Feedback</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="mb-3">
-                                <label class="form-label">Type message</label>
-                                <textarea class="form-control" rows="4"></textarea>
-                            </div>
-
-                            <button class="btn btn-primary px-5 py-2 d-flex align-items-center" style="border-radius:40px;">
-                                <span uk-icon="icon: arrow-right"></span>
-                                <span class="ms-2">Send message</span>
-                            </button>
-
-                        </form>
                     </div>
-
-                    <!-- Map -->
-                    <div class="col-lg-6 map-box">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48319.26803365535!2d-74.026675!3d40.713955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b864eaa23f%3A0xbbb6b7f02dc045a!2sNew%20York%2C%20USA!5e0!3m2!1sen!2slk!4v1700000000000"
-                            allowfullscreen=""
-                            loading="lazy">
-                        </iframe>
-                    </div>
-
                 </div>
+
             </div>
+
+
         </div>
     </div>
     <!-- Scripts -->
