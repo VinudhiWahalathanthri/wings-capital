@@ -7,7 +7,7 @@
     <title>Nipuna Wahalathanthrige</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="./assets/images/icon.png">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="uikit.css">
 
@@ -82,7 +82,6 @@
             padding-right: 60px;
         }
 
-        /* Add padding to body to prevent content from hiding under fixed navbar */
         body.fixed-nav {
             padding-top: 50px;
         }
@@ -121,27 +120,25 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid diiilk">
         <div class="col-12">
             <div class="row">
+
+            
+
                 <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent navbar-fixed">
                     <div class="container-fluid position-relative">
 
-                        <!-- Left: Logo -->
                         <a class="navbar-brand" href="#">
                             <img style="width: 100px;" src="./assets/images/main/Wings.png" id="logo-img" />
                         </a>
-
-                        <!-- Mobile toggle -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-
-                        <!-- Center: Nav links -->
                         <div class="collapse navbar-collapse justify-content-center" style="margin-left:-120px;" id="navbarNav">
-                            <ul class="navbar-nav gap-4 ">
-                                <li class="nav-item"><a class="nav-link text-black" href="#">Home</a></li>
+                            <ul class="navbar-nav gap-4">
+                                <li class="nav-item"><a class="nav-link text-black" style="font-family: 'Lato-Bold';" href="#">Home</a></li>
                                 <li class="nav-item"><a class="nav-link text-black" href="events-and-media.php">News</a></li>
                                 <li class="nav-item"><a class="nav-link text-black" href="about.php">About</a></li>
                                 <li class="nav-item"><a class="nav-link text-black" href="#">Honors</a></li>
@@ -149,8 +146,6 @@
                                 <li class="nav-item"><a class="nav-link text-black" href="#">Services</a></li>
                             </ul>
                         </div>
-
-                        <!-- Right: Buttons -->
                         <div class="d-flex align-items-center position-absolute end-0 me-3">
                             <a href="secureLogin.php"
                                 class="btn h-btn me-2 rounded-1 d-flex align-items-center justify-content-center"
@@ -164,8 +159,6 @@
                                 Book Consultation
                             </a>
                         </div>
-
-                        <!-- Gold button style -->
                         <style>
                             .gold-btn {
                                 background: linear-gradient(to right, #FFD97A, #CFA02E);
@@ -191,29 +184,78 @@
                     </div>
                 </nav>
 
-                <div class="col-md-12" style="margin-bottom: 89px; margin-top: 120px;">
+                <style>
+                    .fancy-grid-section {
+                        position: relative;
+                        margin-bottom: 89px;
+                        margin-top: 120px;
+                        overflow: hidden;
+                        z-index: 0;
+                    }
+
+                    /* subtle grid pattern */
+                    .fancy-grid-section::before {
+                        content: "";
+                        position: absolute;
+                        inset: 0;
+                        background-image:
+                            linear-gradient(#aaaaaaff 1px, transparent 1px),
+                            linear-gradient(to right, #aaaaaaff 1px, transparent 1px);
+                        background-size: 20px 20px;
+                        opacity: 0.25;
+                        /* makes it softer */
+                        mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 1), transparent 70%);
+                        -webkit-mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 1), transparent 70%);
+                        z-index: 0;
+                    }
+
+                    /* optional subtle animation (looks premium) */
+                    @keyframes gridMove {
+                        from {
+                            background-position: 0 0, 0 0;
+                        }
+
+                        to {
+                            background-position: 40px 40px, 40px 40px;
+                        }
+                    }
+
+                    .fancy-grid-section::before {
+                        animation: gridMove 30s linear infinite;
+                    }
+
+                    .fancy-grid-section .content {
+                        position: relative;
+                        z-index: 1;
+                        /* keeps your text above the grid */
+                        opacity: 0.95;
+                    }
+                </style>
+
+                <div class="col-md-12 fancy-grid-section">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-md-6 position-relative text-center">
+                        <div class="col-md-6 position-relative text-center content">
 
                             <h1 class="text-center" style="font-size: 60px; font-family: 'Lato-Bold'; margin-top: 65px;">
                                 Meet and Explore Markets
                             </h1>
 
                             <div class="position-relative d-inline-block">
-                                <h1 class="text-center fst-italic" style="font-size: 60px; font-family: 'Lato-Bold'; position: relative; z-index: 2;">
+                                <h1 class="text-center fst-italic"
+                                    style="margin-top:-10px; font-size: 60px; font-family: 'Lato-Bold'; position: relative; z-index: 2;">
                                     According to your reach
                                 </h1>
                                 <div style="
-                                    background-color: #fff5b2d2;
-                                    width: 85%;
-                                    height: 25px;
-                                    position: absolute;
-                                    left: 50%;
-                                    bottom: 20px;
-                                    transform: translateX(-50%);
-                                    z-index: 1;
-                                    border-radius: 4px;
-                                    "></div>
+                    background-color: #fff5b2d2;
+                    width: 85%;
+                    height: 25px;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 20px;
+                    transform: translateX(-50%);
+                    z-index: 1;
+                    border-radius: 4px;">
+                                </div>
                             </div>
 
                             <div class="text-center" style="margin-top: 40px;">
@@ -223,11 +265,25 @@
                                     SpaceX develops and manufactures space launch vehicles with a focus on advancing the state of rocket technology.
                                 </p>
                             </div>
+
+                            <div class="d-flex align-items-center position-absolute end-0 me-3">
+                                <a href="secureLogin.php"
+                                    class="btn h-btn me-2 rounded-1 d-flex align-items-center justify-content-center"
+                                    style="background-color: rgb(255, 255, 255); border: thin solid #A4A4A4; text-align: center; height: 40px; min-width: 130px;">
+                                    Request Loan
+                                </a>
+
+                                <a href="consult.php"
+                                    class="btn h-btn me-2 pe-4 ps-4 gold-btn rounded-1 d-flex align-items-center justify-content-center"
+                                    style="height: 40px; min-width: 150px;">
+                                    Book Consultation
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12" style="background-color: #0c0c0c;margin-top:100px;">
+                <div class="col-12" style="background-color: #0c0c0c;margin-top:80px;">
                     <div class="row mb-5">
                         <div class="col-12 mb-5" style="margin-top: -120px;">
                             <div class="row justify-content-center align-items-center">
@@ -248,74 +304,72 @@
 
                 <div class="container text-center py-5" style="max-width:1200px;">
 
-  <h1 style="font-size:46px; font-weight:700; line-height:1.2;">
-    International expansion <br>
-    consultants <span style="color:#4BE3A3;">trusted by</span> <br>
-    <span style="color:#4BE3A3;">over 100 companies</span>
-  </h1>
+                    <h1 style="font-size:46px; font-weight:700; line-height:1.2;">
+                        International expansion <br>
+                        consultants <span style="color:#4BE3A3;">trusted by</span> <br>
+                        <span style="color:#4BE3A3;">over 100 companies</span>
+                    </h1>
 
-  <p style="font-size:16px; max-width:700px; margin:20px auto; color:#555;">
-    Over 20 years, we’ve built strong relationships with some great companies. 
-    We’re proud to work with a range of established brands and emerging startups 
-    across Poland, Scandinavia and beyond.
-  </p>
+                    <p style="font-size:16px; max-width:700px; margin:20px auto; color:#555;">
+                        Over 20 years, we’ve built strong relationships with some great companies.
+                        We’re proud to work with a range of established brands and emerging startups
+                        across Poland, Scandinavia and beyond.
+                    </p>
 
-  <div class="row text-center justify-content-center mt-4">
+                    <div class="row text-center justify-content-center mt-4">
 
-    <!-- 15 logos (same image for now) -->
-    <!-- Row 1 -->
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
 
-    <!-- Row 2 -->
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
+                        <!-- Row 2 -->
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
 
-    <!-- Row 3 -->
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
-    <div class="col-4 col-md-2 py-3">
-      <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
-    </div>
+                        <!-- Row 3 -->
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
+                        <div class="col-4 col-md-2 py-3">
+                            <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
+                        </div>
 
-  </div>
-</div>
+                    </div>
+                </div>
 
 
                 <section class="py-5">

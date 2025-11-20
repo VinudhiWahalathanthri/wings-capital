@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../../../assets/fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../../../assets/fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato-Bold-Italic";
+  src: url("../../../assets/fonts/lato/Lato-BlackItalic.ttf");
+}
+@font-face {
+  font-family: "Lato-Italic";
+  src: url("../../../assets/fonts/lato/Lato-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("../../../assets/fonts/lato/PlusJakartaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("../../../assets/fonts/lato/PlusJakartaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Jakarta-Medium";
+  src: url("../../../assets/fonts/lato/PlusJakartaSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Jakarta-SemiBold";
+  src: url("../../../assets/fonts/lato/PlusJakartaSans-SemiBold.ttf");
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.diiilk{
+  background-color: rgb(255, 255, 255);
+}
