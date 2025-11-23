@@ -1,4 +1,6 @@
-<html class="no-js" lang="en" style="scroll-behavior: smooth;"><head>
+<html class="no-js" lang="en" style="scroll-behavior: smooth;">
+
+<head>
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,17 +13,16 @@
    <link rel="apple-touch-icon" href="assets/images/fav.png">
    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
 
- <!-- CSS here -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<link rel="stylesheet" href="assets/css/solvior-icons.css"> <!-- custom, no CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.24/mmenu.css">
-<link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="assets/css/solvior-icons.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.24/mmenu.css">
+   <link rel="stylesheet" href="assets/css/main.css">
 
 
    <link rel="stylesheet" href="main.css">
@@ -33,14 +34,12 @@
    <div class="mouseCursor cursor-outer" style="visibility: visible; transform: translate(1481px, 848px);"></div>
    <div class="mouseCursor cursor-inner" style="visibility: visible; transform: translate(1481px, 848px);"><span>Drag</span></div>
 
-   <!-- Preloader Start -->
    <div class="preloader" style="display: none;">
       <div class="loading-container">
          <div class="loading"></div>
          <div id="loading-icon"><img src="assets/images/loader.svg" alt="loader"></div>
       </div>
    </div>
-   <!-- Preloader End -->
 
    <!-- start: Search Popup -->
    <div class="search_popup">
@@ -100,442 +99,451 @@
          </div>
 
          <div class="hamburger_menu">
-            <div class="mobile_menu mean-container"><div class="mean-bar"><a href="#nav" class="meanmenu-reveal" ><span><span><span></span></span></span></a><nav class="mean-nav">
-                        <ul style="display: none;">
-                           <li class="has-dropdown">
-                              <a href="index.html">Home</a>
-                              <ul class="sub-menu header__mega-menu mega-menu  " style="display: none;">
+            <div class="mobile_menu mean-container">
+               <div class="mean-bar"><a href="#nav" class="meanmenu-reveal"><span><span><span></span></span></span></a>
+                  <nav class="mean-nav">
+                     <ul style="display: none;">
+                        <li class="has-dropdown">
+                           <a href="index.html">Home</a>
+                           <ul class="sub-menu header__mega-menu mega-menu  " style="display: none;">
 
 
-                                 <li>
-                                    <div class="mega-menu-wrapper">
-                                       <div class="container-fluid gap-60-25">
-                                          <div class="row">
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb ">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-1.webp" alt="">
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index.html">Homepage
-                                                         -
-                                                         01</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
+                              <li>
+                                 <div class="mega-menu-wrapper">
+                                    <div class="container-fluid gap-60-25">
+                                       <div class="row">
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb ">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-1.webp" alt="">
                                                 </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-2.webp" alt="">
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-2.html">Homepage
-                                                         -
-                                                         02</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-2.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-3.webp" alt="">
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-3.html">Homepage
-                                                         -
-                                                         03</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-3.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb ">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-4.webp" alt="">
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-4.html">Homepage
-                                                         -
-                                                         04</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-4.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-5.webp" alt="">
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-5.html">Homepage
-                                                         -
-                                                         05</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-5.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-6.webp" alt="">
-
-
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-6.html">Homepage
-                                                         -
-                                                         06</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-6.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb ">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-7.webp" alt="">
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-7.html">Homepage
-                                                         -
-                                                         07</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-7.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-8.webp" alt="">
-                                                      <h6 class="tj-demo-badge">
-                                                         New
-                                                      </h6>
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-8.html">Homepage
-                                                         -
-                                                         08</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-8.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-9.webp" alt="">
-                                                      <h6 class="tj-demo-badge">
-                                                         New
-                                                      </h6>
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-9.html">Homepage
-                                                         -
-                                                         09</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-9.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-xl-3 col-lg-3 col-12">
-                                                <div class="tj-demo-thumb ">
-                                                   <div class="image">
-                                                      <img src="./assets/images/header/demo/home-10.webp" alt="">
-                                                      <h6 class="tj-demo-badge">
-                                                         New
-                                                      </h6>
-                                                   </div>
-                                                   <h6 class="tj-demo-title"><a href="index-10.html">Homepage
-                                                         -
-                                                         10</a></h6>
-                                                   <div class="tj-demo-button">
-                                                      <a href="index-10.html" class="tj-primary-btn header_btn">
-                                                         <span class="btn_inner">
-                                                            <span class="btn_icon">
-                                                               <span>
-                                                                  <i class="tji-arrow-right"></i>
-                                                                  <i class="tji-arrow-right"></i>
-                                                               </span>
-                                                            </span>
-                                                            <span class="btn_text">
-                                                               <span>View demo</span>
-                                                            </span>
-                                                         </span>
-                                                      </a>
-                                                   </div>
-                                                </div>
-                                             </div>
-
-                                          </div>
-                                       </div>
-                                    </div>
-
-
-                                 </li>
-
-
-                              </ul>
-                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a></li>
-                           <li class="has-dropdown">
-                              <a href="services.html">Services</a>
-                              <ul class="sub-menu  mega-menu-service" style="display: none;">
-                                 <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
-                                          <i class="tji-optimization"></i>
-                                       </span> <span class="mega-menu-service-title">Business process
-                                          optimization</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
-                                 <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
-                                          <i class="tji-strategic"></i>
-                                       </span> <span class="mega-menu-service-title">Strategic planning &amp;
-                                          execution</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
-                                 <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
-                                          <i class="tji-leadership"></i>
-                                       </span> <span class="mega-menu-service-title">Leadership executive
-                                          coaching</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
-                                 <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
-                                          <i class="tji-business"></i>
-                                       </span> <span class="mega-menu-service-title">Business process
-                                          optimization</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
-                                 <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
-                                          <i class="tji-process"></i>
-                                       </span> <span class="mega-menu-service-title">Business process
-                                          optimization</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
-                                 <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
-                                          <i class="tji-executive"></i>
-                                       </span> <span class="mega-menu-service-title">Leadership executive
-                                          coaching</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
-
-                              </ul>
-                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a></li>
-                           <li class="has-dropdown">
-                              <a href="javascript:void(0)">Pages</a>
-                              <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages" style="display: none;">
-                                 <li>
-                                    <div class="mega-menu-wrapper">
-
-                                       <div class="mega-menu-pages-single">
-                                          <div class="mega-menu-pages-single-inner">
-                                             <h6 class="mega-menu-title">Main Pages</h6>
-                                             <div class="mega-menu-list">
-                                                <a href="about.html">About us</a>
-                                                <a href="history.html">Our history <span class="mega-menu-badge mega-menu-badge-hot">HOT</span></a>
-                                                <a href="team.html">Team</a>
-                                                <a href="team-details.html">Team details</a>
-                                                <a href="careers.html">Careers <span class="mega-menu-badge ">NEW</span></a>
-                                                <a href="careers-details.html">Careers details</a>
-                                                <a href="pricing.html">Pricing plan</a>
-                                                <a href="#">Feedbacks</a>
-                                                <a href="faq.html">Faq</a>
-                                                <a href="contact.html">Contact</a>
-
-
-                                             </div>
-                                          </div>
-
-                                       </div>
-                                       <div class="mega-menu-pages-single">
-                                          <div class="mega-menu-pages-single-inner">
-                                             <h6 class="mega-menu-title">Other Pages</h6>
-                                             <div class="mega-menu-list">
-                                                <a href="services.html">Services</a>
-                                                <a href="service-details.html">Service details</a>
-                                                <a href="project.html">Portfolio</a>
-                                                <a href="project-details.html">Portfolio details</a>
-                                                <a href="#">Error 404</a>
-                                                <a href="blog-grid.html">Blog grid <span class="mega-menu-badge ">NEW</span></a>
-                                                <a href="blog.html">Blog standard</a>
-                                                <a href="blog-details.html">Blog details</a>
-                                                <a href="#">Term &amp; conditions</a>
-                                                <a href="#">Recognition <span class="mega-menu-badge ">NEW</span></a>
-
-
-                                             </div>
-                                          </div>
-
-                                       </div>
-                                       <div class=" mega-menu-pages-single">
-                                          <div class="mega-menu-pages-single-inner">
-                                             <h6 class="mega-menu-title">Shop Pages</h6>
-                                             <div class="mega-menu-list">
-                                                <a href="shop.html">Shop <span class="mega-menu-badge mega-menu-badge-hot">HOT</span></a>
-                                                <a href="shop-details.html">Shop details </a>
-                                                <a href="cart.html">Cart</a>
-                                                <a href="checkout.html">Checkout</a>
-                                                <a href="wishlist.html">Wishlist<span class="mega-menu-badge ">NEW</span></a>
-                                                <a href="login.html">Login</a>
-
-                                                <a href="#">Tracking</a>
-                                                <a href="#">Order confirm</a>
-                                                <a href="login.html">Registration</a>
-                                                <a href="#">Coming soon</a>
-
-
-                                             </div>
-                                          </div>
-
-                                       </div>
-                                       <div class="col-12 col-lg-3 mega-menu-pages-single">
-                                          <div class="mega-menu-pages-single-inner">
-                                             <div class="tj-sidebar-cta" data-bg-image="assets/images/blog/widget-cta.webp" style="background-image: url(&quot;assets/images/blog/widget-cta.webp&quot;);">
-                                                <div class="content">
-                                                   <div class="icon">
-                                                      <img src="assets/images/shapes/widget-cta-icon.png" alt="image">
-                                                   </div>
-                                                   <h3>Need help? <br> Feel free contact us</h3>
-                                                   <p>
-                                                      Our mission is to empowers businesses off all size in an
-                                                      businesses.
-                                                   </p>
-                                                </div>
-                                                <div class="cta-btn">
-                                                   <a href="contact.html" class="tj-primary-btn white-btn">
-                                                      <div class="btn_inner">
-                                                         <div class="btn_icon">
+                                                <h6 class="tj-demo-title"><a href="index.html">Homepage
+                                                      -
+                                                      01</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
                                                             <span>
                                                                <i class="tji-arrow-right"></i>
                                                                <i class="tji-arrow-right"></i>
                                                             </span>
-                                                         </div>
-                                                         <div class="btn_text"><span>Get in touch</span></div>
-                                                      </div>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
                                                    </a>
-                                                   <img class="shapes move-anim-2" src="assets/images/shapes/carrow.png" alt="shape">
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-2.webp" alt="">
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-2.html">Homepage
+                                                      -
+                                                      02</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-2.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-3.webp" alt="">
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-3.html">Homepage
+                                                      -
+                                                      03</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-3.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb ">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-4.webp" alt="">
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-4.html">Homepage
+                                                      -
+                                                      04</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-4.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-5.webp" alt="">
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-5.html">Homepage
+                                                      -
+                                                      05</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-5.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-6.webp" alt="">
+
+
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-6.html">Homepage
+                                                      -
+                                                      06</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-6.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb ">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-7.webp" alt="">
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-7.html">Homepage
+                                                      -
+                                                      07</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-7.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-8.webp" alt="">
+                                                   <h6 class="tj-demo-badge">
+                                                      New
+                                                   </h6>
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-8.html">Homepage
+                                                      -
+                                                      08</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-8.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-9.webp" alt="">
+                                                   <h6 class="tj-demo-badge">
+                                                      New
+                                                   </h6>
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-9.html">Homepage
+                                                      -
+                                                      09</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-9.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-xl-3 col-lg-3 col-12">
+                                             <div class="tj-demo-thumb ">
+                                                <div class="image">
+                                                   <img src="./assets/images/header/demo/home-10.webp" alt="">
+                                                   <h6 class="tj-demo-badge">
+                                                      New
+                                                   </h6>
+                                                </div>
+                                                <h6 class="tj-demo-title"><a href="index-10.html">Homepage
+                                                      -
+                                                      10</a></h6>
+                                                <div class="tj-demo-button">
+                                                   <a href="index-10.html" class="tj-primary-btn header_btn">
+                                                      <span class="btn_inner">
+                                                         <span class="btn_icon">
+                                                            <span>
+                                                               <i class="tji-arrow-right"></i>
+                                                               <i class="tji-arrow-right"></i>
+                                                            </span>
+                                                         </span>
+                                                         <span class="btn_text">
+                                                            <span>View demo</span>
+                                                         </span>
+                                                      </span>
+                                                   </a>
                                                 </div>
                                              </div>
                                           </div>
 
                                        </div>
                                     </div>
-                                 </li>
+                                 </div>
 
 
-                              </ul>
-                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a></li>
-                           <li class="has-dropdown">
-                              <a href="project.html">Portfolio</a>
-                              <ul class="sub-menu" style="display: none;">
-                                 <li><a href="project.html">Portfolio</a></li>
-                                 <li><a href="project-details.html">Portfolio details</a></li>
-                              </ul>
-                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a></li>
-                           <li class="has-dropdown">
-                              <a href="blog.html">Blog</a>
-                              <ul class="sub-menu" style="display: none;">
-                                 <li><a href="blog.html">Blog standard</a></li>
-                                 <li><a href="blog-grid.html">Blog grid</a></li>
-                                 <li><a href="blog-with-sidebar.html">Blog with sidebar</a></li>
-                                 <li><a href="blog-details.html">Blog details</a></li>
-                              </ul>
-                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a></li>
-                           <li class="current-menu-ancestor mean-last"><a href="contact.html">Contact</a></li>
-                        </ul>
-                     </nav></div></div>
+                              </li>
+
+
+                           </ul>
+                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a>
+                        </li>
+                        <li class="has-dropdown">
+                           <a href="services.html">Services</a>
+                           <ul class="sub-menu  mega-menu-service" style="display: none;">
+                              <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
+                                       <i class="tji-optimization"></i>
+                                    </span> <span class="mega-menu-service-title">Business process
+                                       optimization</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
+                              <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
+                                       <i class="tji-strategic"></i>
+                                    </span> <span class="mega-menu-service-title">Strategic planning &amp;
+                                       execution</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
+                              <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
+                                       <i class="tji-leadership"></i>
+                                    </span> <span class="mega-menu-service-title">Leadership executive
+                                       coaching</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
+                              <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
+                                       <i class="tji-business"></i>
+                                    </span> <span class="mega-menu-service-title">Business process
+                                       optimization</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
+                              <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
+                                       <i class="tji-process"></i>
+                                    </span> <span class="mega-menu-service-title">Business process
+                                       optimization</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
+                              <li> <a class="mega-menu-service-single" href="service-details.html"> <span class="mega-menu-service-icon">
+                                       <i class="tji-executive"></i>
+                                    </span> <span class="mega-menu-service-title">Leadership executive
+                                       coaching</span> <span class="mega-menu-service-nav"><i class="tji-arrow-right"></i><i class="tji-arrow-right"></i></span></a></li>
+
+                           </ul>
+                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a>
+                        </li>
+                        <li class="has-dropdown">
+                           <a href="javascript:void(0)">Pages</a>
+                           <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages" style="display: none;">
+                              <li>
+                                 <div class="mega-menu-wrapper">
+
+                                    <div class="mega-menu-pages-single">
+                                       <div class="mega-menu-pages-single-inner">
+                                          <h6 class="mega-menu-title">Main Pages</h6>
+                                          <div class="mega-menu-list">
+                                             <a href="about.html">About us</a>
+                                             <a href="history.html">Our history <span class="mega-menu-badge mega-menu-badge-hot">HOT</span></a>
+                                             <a href="team.html">Team</a>
+                                             <a href="team-details.html">Team details</a>
+                                             <a href="careers.html">Careers <span class="mega-menu-badge ">NEW</span></a>
+                                             <a href="careers-details.html">Careers details</a>
+                                             <a href="pricing.html">Pricing plan</a>
+                                             <a href="#">Feedbacks</a>
+                                             <a href="faq.html">Faq</a>
+                                             <a href="contact.html">Contact</a>
+
+
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                    <div class="mega-menu-pages-single">
+                                       <div class="mega-menu-pages-single-inner">
+                                          <h6 class="mega-menu-title">Other Pages</h6>
+                                          <div class="mega-menu-list">
+                                             <a href="services.html">Services</a>
+                                             <a href="service-details.html">Service details</a>
+                                             <a href="project.html">Portfolio</a>
+                                             <a href="project-details.html">Portfolio details</a>
+                                             <a href="#">Error 404</a>
+                                             <a href="blog-grid.html">Blog grid <span class="mega-menu-badge ">NEW</span></a>
+                                             <a href="blog.html">Blog standard</a>
+                                             <a href="blog-details.html">Blog details</a>
+                                             <a href="#">Term &amp; conditions</a>
+                                             <a href="#">Recognition <span class="mega-menu-badge ">NEW</span></a>
+
+
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                    <div class=" mega-menu-pages-single">
+                                       <div class="mega-menu-pages-single-inner">
+                                          <h6 class="mega-menu-title">Shop Pages</h6>
+                                          <div class="mega-menu-list">
+                                             <a href="shop.html">Shop <span class="mega-menu-badge mega-menu-badge-hot">HOT</span></a>
+                                             <a href="shop-details.html">Shop details </a>
+                                             <a href="cart.html">Cart</a>
+                                             <a href="checkout.html">Checkout</a>
+                                             <a href="wishlist.html">Wishlist<span class="mega-menu-badge ">NEW</span></a>
+                                             <a href="login.html">Login</a>
+
+                                             <a href="#">Tracking</a>
+                                             <a href="#">Order confirm</a>
+                                             <a href="login.html">Registration</a>
+                                             <a href="#">Coming soon</a>
+
+
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                    <div class="col-12 col-lg-3 mega-menu-pages-single">
+                                       <div class="mega-menu-pages-single-inner">
+                                          <div class="tj-sidebar-cta" data-bg-image="assets/images/blog/widget-cta.webp" style="background-image: url(&quot;assets/images/blog/widget-cta.webp&quot;);">
+                                             <div class="content">
+                                                <div class="icon">
+                                                   <img src="assets/images/shapes/widget-cta-icon.png" alt="image">
+                                                </div>
+                                                <h3>Need help? <br> Feel free contact us</h3>
+                                                <p>
+                                                   Our mission is to empowers businesses off all size in an
+                                                   businesses.
+                                                </p>
+                                             </div>
+                                             <div class="cta-btn">
+                                                <a href="contact.html" class="tj-primary-btn white-btn">
+                                                   <div class="btn_inner">
+                                                      <div class="btn_icon">
+                                                         <span>
+                                                            <i class="tji-arrow-right"></i>
+                                                            <i class="tji-arrow-right"></i>
+                                                         </span>
+                                                      </div>
+                                                      <div class="btn_text"><span>Get in touch</span></div>
+                                                   </div>
+                                                </a>
+                                                <img class="shapes move-anim-2" src="assets/images/shapes/carrow.png" alt="shape">
+                                             </div>
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                 </div>
+                              </li>
+
+
+                           </ul>
+                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a>
+                        </li>
+                        <li class="has-dropdown">
+                           <a href="project.html">Portfolio</a>
+                           <ul class="sub-menu" style="display: none;">
+                              <li><a href="project.html">Portfolio</a></li>
+                              <li><a href="project-details.html">Portfolio details</a></li>
+                           </ul>
+                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a>
+                        </li>
+                        <li class="has-dropdown">
+                           <a href="blog.html">Blog</a>
+                           <ul class="sub-menu" style="display: none;">
+                              <li><a href="blog.html">Blog standard</a></li>
+                              <li><a href="blog-grid.html">Blog grid</a></li>
+                              <li><a href="blog-with-sidebar.html">Blog with sidebar</a></li>
+                              <li><a href="blog-details.html">Blog details</a></li>
+                           </ul>
+                           <a class="mean-expand" href="#" style="font-size: 18px"><i class="tji-angle-down"></i></a>
+                        </li>
+                        <li class="current-menu-ancestor mean-last"><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
          </div>
 
          <div class="hamburger-infos">
@@ -602,7 +610,14 @@
                               <option value="1">English</option>
                               <option value="2">Arabic</option>
                               <option value="3">Spanish</option>
-                           </select><div class="nice-select" tabindex="0"><span class="current">English</span><ul class="list"><li data-value="1" class="option selected">English</li><li data-value="2" class="option">Arabic</li><li data-value="3" class="option">Spanish</li></ul></div>
+                           </select>
+                           <div class="nice-select" tabindex="0"><span class="current">English</span>
+                              <ul class="list">
+                                 <li data-value="1" class="option selected">English</li>
+                                 <li data-value="2" class="option">Arabic</li>
+                                 <li data-value="3" class="option">Spanish</li>
+                              </ul>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -624,7 +639,8 @@
                      </div>
 
                      <!-- main navigation -->
-                     <div class="mean-push"></div><div class="mainmenu d-lg-block d-none" id="main-menu" style="display: none;">
+                     <div class="mean-push"></div>
+                     <div class="mainmenu d-lg-block d-none" id="main-menu" style="display: none;">
                         <ul>
                            <li class="has-dropdown">
                               <a href="index.html">Home</a>
@@ -1601,7 +1617,17 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="tj-page-header-content text-center">
-                     <h1 class="tj-page-title text-anim"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">C</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div></h1>
+                     <h1 class="tj-page-title text-anim">
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">C</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                        </div>
+                     </h1>
                      <div class="tj-page-link wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; opacity: 1;">
                         <span>
                            <a href="index.html">
@@ -1626,7 +1652,35 @@
                <div class="col-12">
                   <div class="sec-heading text-center">
                      <span class="sub-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; opacity: 1;">CONTACT US</span>
-                     <h2 class="sec-title text-anim"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">O</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">f</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">m</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div></div></h2>
+                     <h2 class="sec-title text-anim">
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">O</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div>
+                        </div>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                        </div>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">f</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">m</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                        </div>
+                     </h2>
                   </div>
                </div>
             </div>
@@ -1687,7 +1741,68 @@
                <!-- contact form -->
                <div class="col-lg-6">
                   <div class="contact-form-one style-2 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; opacity: 1;">
-                     <h3 class="title text-anim"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">F</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">f</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div></div> <span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">g</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div></div></span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">v</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">.</div></div></h3>
+                     <h3 class="title text-anim">
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">F</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div>
+                        </div>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">f</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div>
+                        </div>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                        </div> <span>
+                           <div style="position:relative;display:inline-block;">
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">g</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           </div>
+                           <div style="position:relative;display:inline-block;">
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                           </div>
+                           <div style="position:relative;display:inline-block;">
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div>
+                           </div>
+                        </span>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div>
+                        </div>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">v</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                        </div>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div>
+                        </div>
+                        <div style="position:relative;display:inline-block;">
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                           <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">.</div>
+                        </div>
+                     </h3>
                      <form action="#">
                         <div class="row">
                            <div class="col-sm-6">
@@ -1717,7 +1832,18 @@
                                           <option value="4">Business consultancy</option>
                                           <option value="5">Digital marketing</option>
                                           <option value="6">Branding design</option>
-                                       </select><div class="nice-select" tabindex="0"><span class="current">Chose a option</span><ul class="list"><li data-value="Chose a option" class="option selected">Chose a option</li><li data-value="1" class="option">IT consulting</li><li data-value="2" class="option">Market research</li><li data-value="3" class="option">Business process</li><li data-value="4" class="option">Business consultancy</li><li data-value="5" class="option">Digital marketing</li><li data-value="6" class="option">Branding design</li></ul></div>
+                                       </select>
+                                       <div class="nice-select" tabindex="0"><span class="current">Chose a option</span>
+                                          <ul class="list">
+                                             <li data-value="Chose a option" class="option selected">Chose a option</li>
+                                             <li data-value="1" class="option">IT consulting</li>
+                                             <li data-value="2" class="option">Market research</li>
+                                             <li data-value="3" class="option">Business process</li>
+                                             <li data-value="4" class="option">Business consultancy</li>
+                                             <li data-value="5" class="option">Digital marketing</li>
+                                             <li data-value="6" class="option">Branding design</li>
+                                          </ul>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -1763,7 +1889,31 @@
                <div class="col-12">
                   <div class="cta-wrapper">
                      <div class="cta-title">
-                        <h2 class="title text-anim"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">G</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">w</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">!</div></div></h2>
+                        <h2 class="title text-anim">
+                           <div style="position:relative;display:inline-block;">
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">G</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           </div>
+                           <div style="position:relative;display:inline-block;">
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
+                           </div>
+                           <div style="position:relative;display:inline-block;">
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">w</div>
+                              <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">!</div>
+                           </div>
+                        </h2>
                      </div>
                      <div class="cta-button wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; opacity: 1;">
                         <a href="contact.html" class="tj-primary-btn white-btn">
@@ -1926,4 +2076,6 @@
    <script src="assets/js/main.js"></script>
 
 
-</body></html>
+</body>
+
+</html>

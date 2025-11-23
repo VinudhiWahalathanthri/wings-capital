@@ -9,6 +9,7 @@
     <link rel="icon" href="./assets/images/icon.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="uikit.css">
 
     <style>
@@ -120,12 +121,14 @@
 </head>
 
 <body>
-    <div class="container-fluid diiilk">
+    <div class="col-12" >
+        <?php include 'header.php'; ?>
         <div class="col-12">
             <div class="row">
+                
 
             
-
+<!-- 
                 <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent navbar-fixed">
                     <div class="container-fluid position-relative">
 
@@ -182,7 +185,7 @@
                             }
                         </style>
                     </div>
-                </nav>
+                </nav> -->
 
                 <style>
                     .fancy-grid-section {

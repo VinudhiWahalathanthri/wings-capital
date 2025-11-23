@@ -19,11 +19,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.24/mmenu.css">
 
+    <link rel="icon"
+        href="assets/images/main/Wings.png">
 
     <link rel="stylesheet" href="main.css">
 
     <style>
-        /* Only small required styles */
         .contact-card {
             border: 1px solid #e7e7e7;
             padding: 40px 20px;
@@ -35,7 +36,7 @@
             width: 90px;
             height: 90px;
             border-radius: 50%;
-            background: #eaf2ff;
+            background: #d4af3743;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -90,7 +91,7 @@
 
         .map-box iframe {
             width: 100%;
-            height: 500px;
+            height: 50%;
             border: 0;
         }
     </style>
@@ -199,154 +200,166 @@
             </div>
 
 
-            <!-- Top Section -->
-            <div class="col-10 text-center" style="padding:180px;margin-top:-100px;">
+            <div class="col-12 p-5" style="margin-top:50px;">
+                <div class="row justify-content-center align-content-center">
+                    <!-- Top Section -->
+                    <div class="col-10 text-center justify-content-center align-content-center">
 
-                <p class="text-primary fw-bold d-flex align-items-center justify-content-center gap-2">
-                    <span style="font-size: 10px;">•</span>
-                    CONTACT US
-                    <span style="font-size: 10px;">•</span>
-                </p>
-                <h1 class="fw-bold">Our contact information</h1>
+                        <p class=" fw-bold d-flex align-items-center justify-content-center gap-2" style="color: #D4AF37;">
+                            <span style="font-size: 10px;">•</span>
+                            CONTACT US
+                            <span style="font-size: 10px;">•</span>
+                        </p>
+                        <h1 class="fw-bold">Our contact information</h1>
 
-                <div class="row mt-5 g-4">
+                        <div class="row mt-5 g-4">
 
-                    <!-- Email -->
-                    <div class="col-md-3">
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <span uk-icon="icon: mail; ratio: 2"></span>
-                            </div>
-                            <h4 class="fw-bold">Email us</h4>
-                            <p class="mt-3">solvior@gmail.com<br>support@gmail.com</p>
-                        </div>
-                    </div>
-
-                    <!-- Call -->
-                    <div class="col-md-3">
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <span uk-icon="icon: receiver; ratio: 2"></span>
-                            </div>
-                            <h4 class="fw-bold">Call us</h4>
-                            <p class="mt-3">+526-8214-5622<br>+226-3565-2552</p>
-                        </div>
-                    </div>
-
-                    <!-- Location -->
-                    <div class="col-md-3">
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <span uk-icon="icon: location; ratio: 2"></span>
-                            </div>
-                            <h4 class="fw-bold">Our Location</h4>
-                            <p class="mt-3">
-                                993 Renner Burg, West Rond,<br>
-                                MT 94251-030
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Live Chat -->
-                    <div class="col-md-3">
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <span uk-icon="icon: comments; ratio: 2"></span>
-                            </div>
-                            <h4 class="fw-bold">Live chat</h4>
-                            <p class="mt-3">livechat@solvior.com<br><a href="#" class="text-primary">Need help?</a></p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <!-- Bottom Section -->
-                <div class="col-12 mt-5 tj-contact-area">
-                    <div class="row">
-
-                        <!-- Form -->
-                        <div class="col-lg-6 contact-form-one p-4" style="border:1px solid #e7e7e7;margin-left:10px;width:660px;">
-                            <h2 class=" mb-4 text-start p-4">
-                                Feel free to <span style="color: #D4AF37;">get in touch</span> or </br> visit our location.
-                            </h2>
-
-                         <div class="col-12 p-4">
-                            <div class="row">
-                                  <form action="#">
-                        <div class="row">
-                           <div class="col-sm-6">
-                              <div class="form-input">
-                                 <input type="text" id="first" name="name" placeholder="Full name*" required="">
-                              </div>
-                           </div>
-                           <div class="col-sm-6">
-                              <div class="form-input">
-                                 <input type="email" id="emailOne" name="email" placeholder="Email address*" required="">
-                              </div>
-                           </div>
-                           <div class="col-sm-6">
-                              <div class="form-input">
-                                 <input type="tel" id="tel" name="tel" placeholder="Phone number*" required="">
-                              </div>
-                           </div>
-                           <div class="col-sm-6">
-                              <div class="form-input">
-                                 <div class="tj-nice-select-box">
-                                    <div class="tj-select">
-                                       <select class="nice-select" style="display: none;">
-                                          <option>Chose a option</option>
-                                          <option value="1">IT consulting</option>
-                                          <option value="2">Market research</option>
-                                          <option value="3">Business process</option>
-                                          <option value="4">Business consultancy</option>
-                                          <option value="5">Digital marketing</option>
-                                          <option value="6">Branding design</option>
-                                       </select><div class="nice-select" tabindex="0"><span class="current">Chose a option</span><ul class="list"><li data-value="Chose a option" class="option selected">Chose a option</li><li data-value="1" class="option">IT consulting</li><li data-value="2" class="option">Market research</li><li data-value="3" class="option">Business process</li><li data-value="4" class="option">Business consultancy</li><li data-value="5" class="option">Digital marketing</li><li data-value="6" class="option">Branding design</li></ul></div>
+                            <!-- Email -->
+                            <div class="col-md-3">
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <span uk-icon="icon: mail; ratio: 2"></span>
                                     </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-12">
-                              <div class="form-input input-textarea">
-                                 <textarea id="message" name="message" placeholder="Type message"></textarea>
-                              </div>
-                           </div>
-                           <div class="submit-button">
-                              <button type="submit" class="tj-primary-btn">
-                                 <span class="btn_inner">
-                                    <span class="btn_icon">
-                                       <span>
-                                          <i class="tji-arrow-right"></i>
-                                          <i class="tji-arrow-right"></i>
-                                       </span>
-                                    </span>
-                                    <span class="btn_text">
-                                       <span>Send message</span>
-                                    </span>
-                                 </span>
-                              </button>
-                           </div>
-                        </div>
-                     </form>
+                                    <h4 class="fw-bold">Email us</h4>
+                                    <p class="mt-3">solvior@gmail.com<br>support@gmail.com</p>
+                                </div>
                             </div>
-                         </div>
+
+                            <!-- Call -->
+                            <div class="col-md-3">
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <span uk-icon="icon: receiver; ratio: 2"></span>
+                                    </div>
+                                    <h4 class="fw-bold">Call us</h4>
+                                    <p class="mt-3">+526-8214-5622<br>+226-3565-2552</p>
+                                </div>
+                            </div>
+
+                            <!-- Location -->
+                            <div class="col-md-3">
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <span uk-icon="icon: location; ratio: 2"></span>
+                                    </div>
+                                    <h4 class="fw-bold">Our Location</h4>
+                                    <p class="mt-3">
+                                        993 Renner Burg, West Rond,<br>
+                                        MT 94251-030
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Live Chat -->
+                            <div class="col-md-3">
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <span uk-icon="icon: comments; ratio: 2"></span>
+                                    </div>
+                                    <h4 class="fw-bold">Live chat</h4>
+                                    <p class="mt-3">livechat@solvior.com<br><a href="#" class="text-primary">Need help?</a></p>
+                                </div>
+                            </div>
+
                         </div>
 
-                        <!-- Map -->
-                        <div class="col-lg-5 map-box">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48319.26803365535!2d-74.026675!3d40.713955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b864eaa23f%3A0xbbb6b7f02dc045a!2sNew%20York%2C%20USA!5e0!3m2!1sen!2slk!4v1700000000000"
-                                allowfullscreen=""
-                                loading="lazy">
-                            </iframe>
+                        <!-- Bottom Section -->
+                        <div class="col-12 tj-contact-area">
+                            <div class="row g-4">
+
+                                <!-- Form -->
+                                <div class="col-md-6 contact-form-one">
+                                    <div class="contact-card h-100">
+                                        <h2 class="mb-4 text-start p-4">
+                                            Feel free to <span style="color: #D4AF37;">get in touch</span> or </br> visit our location.
+                                        </h2>
+
+                                        <div class="col-12 px-4 pb-4">
+                                            <form action="#">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="form-input">
+                                                            <input type="text" id="first" name="name" placeholder="Full name*" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-input">
+                                                            <input type="email" id="emailOne" name="email" placeholder="Email address*" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-input">
+                                                            <input type="tel" id="tel" name="tel" placeholder="Phone number*" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-input">
+                                                            <div class="tj-nice-select-box">
+                                                                <div class="tj-select">
+                                                                    <select class="nice-select" style="display:none;">
+                                                                        <option>Chose a option</option>
+                                                                        <option value="1">IT consulting</option>
+                                                                        <option value="2">Market research</option>
+                                                                        <option value="3">Business process</option>
+                                                                        <option value="4">Business consultancy</option>
+                                                                        <option value="5">Digital marketing</option>
+                                                                        <option value="6">Branding design</option>
+                                                                    </select>
+
+                                                                    <div class="nice-select" tabindex="0">
+                                                                        <span class="current">Chose a option</span>
+                                                                        <ul class="list">
+                                                                            <li data-value="Chose a option" class="option selected">Chose a option</li>
+                                                                            <li data-value="1" class="option">IT consulting</li>
+                                                                            <li data-value="2" class="option">Market research</li>
+                                                                            <li data-value="3" class="option">Business process</li>
+                                                                            <li data-value="4" class="option">Business consultancy</li>
+                                                                            <li data-value="5" class="option">Digital marketing</li>
+                                                                            <li data-value="6" class="option">Branding design</li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12">
+                                                        <div class="form-input input-textarea">
+                                                            <textarea id="message" name="message" placeholder="Type message"></textarea>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="submit-button justify-content-start align-content-start">
+                                                        <button type="submit" class="tj-primary-btn">
+                                                            <span class="btn_inner">
+                                                                <span class="btn_icon">
+                                                                    <span>
+                                                                        <i class="bi bi-arrow-right"></i>
+                                                                        <i class="tji-arrow-right"></i>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="btn_text"><span>Send message</span></span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                              
+
+                            </div>
                         </div>
 
                     </div>
+
                 </div>
-
             </div>
-
 
         </div>
     </div>

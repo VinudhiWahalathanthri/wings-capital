@@ -2,203 +2,453 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultant Footer</title>
 
-    <link rel="apple-touch-icon" href="assets/images/fav.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+            box-sizing: border-box;
+        }
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="assets/css/solvior-icons.css"> <!-- custom, no CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.24/mmenu.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+        body {
+            font-family: 'Lato';
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #ffe600de 0%, #0052cc 100%);
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+        }
+
+        .cta-section::after {
+            content: '';
+            position: absolute;
+            bottom: -50%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+        }
+
+        .cta-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-title {
+            font-size: 56px;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: white;
+            color: #0a0e1a;
+            padding: 18px 36px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-icon {
+            width: 24px;
+            height: 24px;
+            background: #0066ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+
+        /* Footer Section */
+        .footer {
+            background: #0a0e1a;
+            padding: 80px 20px 0;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 60px;
+            padding-bottom: 60px;
+            border-bottom: 1px solid #1a1f2e;
+        }
+
+        .footer-column h3 {
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 16px;
+        }
+
+        .footer-column ul li a {
+            color: #8892a6;
+            text-decoration: none;
+            font-size: 15px;
+            transition: color 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .footer-column ul li a:hover {
+            color: #0066ff;
+        }
+
+        .new-badge {
+            background: #0066ff;
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+
+        .office-section {
+            margin-bottom: 40px;
+        }
+
+        .office-label {
+            color: #8892a6;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .office-address {
+            color: #c5cbd6;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .office-phone {
+            color: #c5cbd6;
+            font-size: 15px;
+        }
+
+        /* Newsletter */
+        .newsletter-form {
+            position: relative;
+        }
+
+        .newsletter-input {
+            width: 100%;
+            background: #141824;
+            border: 1px solid #1a1f2e;
+            padding: 16px 50px 16px 20px;
+            border-radius: 8px;
+            color: white;
+            font-size: 15px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .newsletter-input::placeholder {
+            color: #4a5568;
+        }
+
+        .newsletter-input:focus {
+            border-color: #0066ff;
+        }
+
+        .newsletter-submit {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #0066ff;
+            border: none;
+            width: 36px;
+            height: 36px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .newsletter-submit:hover {
+            background: #0052cc;
+        }
+
+        .newsletter-submit svg {
+            width: 20px;
+            height: 20px;
+            fill: white;
+        }
+
+        /* Bottom Bar */
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            color: #8892a6;
+            font-size: 14px;
+        }
+
+        .copyright strong {
+            color: white;
+            font-weight: 600;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 12px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: #141824;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8892a6;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: #0066ff;
+            color: white;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: #8892a6;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #0066ff;
+        }
+
+        /* Scroll to Top Button */
+        .scroll-top {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            width: 50px;
+            height: 50px;
+            background: #0066ff;
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 12px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            transition: all 0.3s ease;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        .scroll-top:hover {
+            background: #0052cc;
+            transform: translateY(-4px);
+        }
+
+        @media (max-width: 1024px) {
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 40px;
+            }
+
+            .cta-content {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .cta-title {
+                font-size: 42px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
 
 
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="animate.css">
+        }
+    </style>
 </head>
 
 <body>
-    <!-- end: Contact Bottom Section -->
-    <!-- start: Cta Section -->
-    <section class="tj-cta-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="cta-wrapper">
-                        <div class="cta-title">
-                            <h2 class="title text-anim">
-                                <div style="position:relative;display:inline-block;">
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">G</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
-                                </div>
-                                <div style="position:relative;display:inline-block;">
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div>
-                                </div>
-                                <div style="position:relative;display:inline-block;">
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">w</div>
-                                    <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">!</div>
-                                </div>
-                            </h2>
-                        </div>
-                        <div class="cta-button wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; opacity: 1;">
-                            <a href="contact.html" class="tj-primary-btn white-btn">
-                                <div class="btn_inner">
-                                    <div class="btn_icon">
-                                        <span>
-                                            <i class="tji-arrow-right"></i>
-                                            <i class="tji-arrow-right"></i>
-                                        </span>
-                                    </div>
-                                    <div class="btn_text">
-                                        <span>Lets talk now</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+    <section class="cta-section">
+        <div class="cta-content">
+            <h1 style="font-family: 'Lato';font-weight: 700;color:antiquewhite; font-size: 64px;">GET CONSULTANT NOW!</h1>
+            <div class="submit-button justify-content-start align-content-start">
+                <button type="submit" class="tj-primary-btn">
+                    <span class="btn_inner">
+                        <span class="btn_icon">
+                            <span>
+                                <i class="bi bi-arrow-right"></i>
+                                <i class="tji-arrow-right"></i>
+                            </span>
+                        </span>
+                        <span class="btn_text"><span>Send message</span></span>
+                    </span>
+                </button>
             </div>
         </div>
-
-        <img class="cta-shape-1" src="assets/images/shapes/cta-shapes-1.png" alt="Shapes">
-        <img class="cta-shape-2" src="assets/images/shapes/cta-shapes-2.png" alt="Shapes">
     </section>
-    <!-- end: Cta Section -->
-    </main>
 
-    <!-- start: Footer Area -->
-    <footer class="tj-footer-area">
-        <div class="footer-top-area fix">
-            <div class="container">
-                <div class="row rg-50 line">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget footer1-col-1 footer-contact-infos">
-                            <div class="footer-title">
-                                <h4 class="title">Our offices</h4>
-                            </div>
-                            <div class="infos-item">
-                                <span>Headquarters - USA</span>
-                                <p>993 Renner Burg, West Rond, MT 94251-030</p>
-                                <a href="tel:1009544-7818">+1 (009) 544-7818</a>
-                            </div>
-                            <div class="infos-item">
-                                <span>Operations - Canada</span>
-                                <p>Suite 452 8082 Boner Parge, Elviraton, CA 48998</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
-                        <div class="footer-widget footer1-col-2 widget_nav_menu">
-                            <div class="footer-title">
-                                <h4 class="title">Resourses</h4>
-                            </div>
-                            <div class="widget-menu">
-                                <ul>
-                                    <li><a href="contact.html">Contact us</a></li>
-                                    <li><a href="contact.html">Privacy policy</a></li>
-                                    <li><a href="about.html">Recognitions</a></li>
-                                    <li><a href="careers.html">Careers <span>New</span></a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="team.html">Feedback</a></li>
-                                    <li><a href="contact.html">Error 404</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget footer1-col-3 widget_nav_menu">
-                            <div class="footer-title">
-                                <h4 class="title">Services</h4>
-                            </div>
-                            <div class="widget-menu">
-                                <ul>
-                                    <li><a href="service-details.html">Strategic planning</a></li>
-                                    <li><a href="service-details.html">Market research</a></li>
-                                    <li><a href="service-details.html">Business process</a></li>
-                                    <li><a href="service-details.html">Financial management</a></li>
-                                    <li><a href="service-details.html">Change management</a></li>
-                                    <li><a href="service-details.html">IT consulting</a></li>
-                                    <li><a href="service-details.html">Leadership </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer-widget footer1-col-4 footer-newsletter-form">
-                            <div class="newsletter-title">
-                                <h3 class="title">Subscribe to our newsletter</h3>
-                            </div>
-                            <div class="newsletter-form">
-                                <form>
-                                    <div class="form-input">
-                                        <input type="email" id="email" name="email" placeholder="Enter email" required="">
-                                        <button class="tj-footer-input-btn"><i class="fa-solid fa-paper-plane"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Our offices -->
+            <div class="footer-column">
+                <h3>Our offices</h3>
+                <div class="office-section">
+                    <div class="office-label">Headquarters - USA</div>
+                    <div class="office-address">993 Renner Burg, West Rond,<br>MT 94251-030</div>
+                    <div class="office-phone">+1 (009) 544-7818</div>
+                </div>
+                <div class="office-section">
+                    <div class="office-label">Operations - Canada</div>
+                    <div class="office-address">Suite 452 8082 Boner Parge,<br>Elviraton, CA 48998</div>
                 </div>
             </div>
-        </div>
-        <div class="footer-copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="copyright-content-area">
-                            <div class="copyright-text">
-                                <p>© 2025 <a href="#" target="_blank"> Solvior </a> All right reserved.</p>
-                            </div>
-                            <div class="copyright-socails">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="copyright-menu">
-                                <ul>
-                                    <li><a href="contact.html">Policy &amp; privacy</a></li>
-                                    <li><a href="contact.html">Terms &amp; conditions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+            <!-- Resources -->
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul style="margin-left: -30px;">
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Recognitions</a></li>
+                    <li><a href="#">Careers <span class="new-badge">NEW</span></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Error 404</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul style="margin-left: -30px;">
+                    <li><a href="#">Strategic planning</a></li>
+                    <li><a href="#">Market research</a></li>
+                    <li><a href="#">Business process</a></li>
+                    <li><a href="#">Financial management</a></li>
+                    <li><a href="#">Change management</a></li>
+                    <li><a href="#">IT consulting</a></li>
+                    <li><a href="#">Leadership</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-column">
+                <h3>Subscribe to our newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter email">
+                    <button type="submit" class="newsletter-submit">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                        </svg>
+                    </button>
+                </form>
             </div>
         </div>
 
-        <!-- start: back to top -->
-        <div class="back-to-top-wrapper back-to-top-btn-show">
-            <button id="back_to_top" type="button" class="back-to-top-btn style-2">
-                <i class="tji-arrow-up"></i>
-                <span>GO TOP</span>
-            </button>
+        <div class="footer-bottom">
+            <div class="copyright">
+                © 2025 <strong>Solvior</strong> All right reserved.
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">📷</a>
+                <a href="#" class="social-link">🐦</a>
+                <a href="#" class="social-link">in</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Policy & privacy</a>
+                <span style="color: #8892a6;">•</span>
+                <a href="#">Terms & conditions</a>
+            </div>
         </div>
-        <!-- end: back to top -->
     </footer>
+
+
 </body>
 
 </html>

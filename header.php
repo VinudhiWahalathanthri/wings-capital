@@ -84,16 +84,15 @@
         }
 
         .main-nav.scrolled {
-            background: #ffffff;
+            background: #202020ff;
             top: 0;
             padding: 12px 0;
-            box-shadow: 0 3px 20px rgba(0, 0, 0, 0.09);
             margin-top: 0;
         }
 
 
         .main-nav.scrolled .nav-menu a {
-            color: #000;
+            color: #ffffffff;
         }
 
         .main-nav.scrolled .explore-btn {

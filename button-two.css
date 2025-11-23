@@ -2,9 +2,9 @@
 
 :root {
   /* Black & Gold Theme */
-  --tj-color-theme-dark: #262626;        /* Main background (black) */
+  --tj-color-theme-dark: #ffffff;        /* Main background (black) */
   --tj-color-theme-primary: #D4AF37;     /* Gold highlight */
-  --tj-color-heading-primary: #262626;   /* Text for white buttons */
+  --tj-color-heading-primary: #ffffff;   /* Text for white buttons */
   --tj-color-common-white: #FFFFFF;
   --tj-fw-bold: 700;
 }
