@@ -8,11 +8,15 @@
 }
 @font-face {
   font-family: "Lato-Bold-Italic";
-  src: url("../../../assets/fonts/lato/Lato-BlackItalic.ttf");
+  src: url("../../../assets/fonts/Lato-BlackItalic.ttf");
 }
 @font-face {
   font-family: "Lato-Italic";
-  src: url("../../../assets/fonts/lato/Lato-Italic.ttf");
+  src: url("../../../assets/fonts/Lato-Italic.ttf");
+}
+@font-face {
+  font-family: "Lato-SemiBold";
+  src: url("../../../assets/fonts/Lato-SemiBold.ttf");
 }
 
 @font-face {
@@ -119,4 +123,35 @@ body {
   z-index: 1;
   /* keeps your text above the grid */
   opacity: 0.95;
+}
+
+.gold-text{
+  color: #bfa13f;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.heading-black{
+  color: #051229;
+  font-size:48px;
+  font-weight: 600;
+}
+
+.paragraph-dark{
+  color: #495263;
+  font-size:18px;
+  line-height: 28px;
+}
+
+.box-heading{
+  color: #051229;
+  font-size:24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.box-paragraph{
+  color: #495263;
+  font-size:16px;
+  line-height: 28px;
 }

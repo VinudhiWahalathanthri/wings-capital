@@ -86,22 +86,37 @@ Description: Solvior - Business Consulting HTML Template
   /**
     @Color Declaration
   */
-  --tj-color-common-white: #f7f7f7;
-  --tj-color-common-white-2: #a9b0b8;
+   /* Core Theme */
+  --tj-color-common-white: #FFFFFF;
+  --tj-color-common-white-2: #F5EEDC;   /* soft light gold-tinted white */
+  
   --tj-color-common-black: #000000;
-  --tj-color-common-black-2: #676e7a;
-  --tj-color-common-black-3: #969ca5;
-  --tj-color-heading-primary: #051229;
-  --tj-color-text-body: #364052;
-  --tj-color-text-body-2: #7e8590;
-  --tj-color-theme-primary: #0075ff;
-  --tj-color-theme-dark: #051229;
-  --tj-color-theme-bg: #e1e8f0;
-  --tj-color-theme-bg-2: #dfecfd;
-  --tj-color-border-1: #27354d;
-  --tj-color-border-2: #ced7e0;
-  --tj-color-border-3: #d7d8db;
-  --tj-color-red-1: #ff0000;
+  --tj-color-common-black-2: #262626;   /* rich dark grey-black */
+  --tj-color-common-black-3: #3A3A3A;   /* secondary black for depth */
+
+  /* Typography */
+  --tj-color-heading-primary: #262626;  /* headlines */
+  --tj-color-text-body: #E8D9A9;        /* soft light gold text */
+  --tj-color-text-body-2: #CBBE91;      /* lighter muted gold */
+
+  /* Gold Theme */
+  --tj-color-theme-primary: #D4AF37;    /* primary gold */
+  --tj-color-theme-dark: #262626;       /* dark background */
+  
+  /* Light Gold Replacements (formerly light blue) */
+  --tj-color-theme-bg: #F4EBC3;         /* pale soft gold */
+  --tj-color-theme-bg-2: #F8F1D4;       /* even lighter gold wash */
+
+  /* Borders (refined gold-based neutrals) */
+  --tj-color-border-1: #8E7A3B;         /* dark gold */
+  --tj-color-border-2: #E2D8B3;         /* soft gold-neutral */
+  --tj-color-border-3: #EFE7CB;         /* ultra-light gold */
+
+  /* Alerts */
+  --tj-color-red-1: #FF4B4B;            /* keep red as-is for visibility */
+
+  /* Font weight */
+  --tj-fw-bold: 700;
 }
 
 * {

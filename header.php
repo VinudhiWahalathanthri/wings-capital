@@ -118,11 +118,8 @@
         }
 
         .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: #D4AF37;
-            /* gold */
-            border-radius: 50%;
+            width: 80px;
+            height: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -266,9 +263,8 @@
             <div class="navbar-content">
                 <a href="#" class="logo">
                     <div class="logo-icon">
-                        <i class="fas fa-network-wired"></i>
+                     <img src="assets/images/wings logo.png" alt="" srcset="">
                     </div>
-                    <span>Solvior</span>
                 </a>
 
                 <ul class="nav-menu">

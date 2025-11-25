@@ -360,7 +360,7 @@
                         <span class="btn_icon">
                             <span>
                                 <i class="bi bi-arrow-right"></i>
-                                <i class="tji-arrow-right"></i>
+                                <i class="bi bi-arrow-right"></i>
                             </span>
                         </span>
                         <span class="btn_text"><span>Send message</span></span>
@@ -434,10 +434,10 @@
             </div>
 
             <div class="social-links">
-                <a href="#" class="social-link">f</a>
-                <a href="#" class="social-link">📷</a>
-                <a href="#" class="social-link">🐦</a>
-                <a href="#" class="social-link">in</a>
+                 <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
             </div>
 
             <div class="footer-links">

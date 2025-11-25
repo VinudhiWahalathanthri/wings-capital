@@ -64,7 +64,7 @@
 
         .hero-title {
             font-size: 72px;
-            color: #06122e;
+            color: #211a02;
             font-family: 'Lato', serif;
             font-weight: 600;
             line-height: 68px;
