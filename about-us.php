@@ -130,7 +130,7 @@
         .hero-section {
             position: relative;
             height: 550px;
-            background: url('assets/images/pages/people.png') center center / cover no-repeat;
+            background: url('assets/images/dubai.png') center center / cover no-repeat;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -218,7 +218,7 @@
 
             <div class="hero-section d-flex justify-content-center align-items-center text-center">
                 <div class="hero-content p-4">
-                    <h1 class="fw-bold" style="font-size:64px;">About Us</h1>
+                    <h1 style="font-size:57px;font-family: 'Lato';">About Us</h1>
                     <p>
                         <a href="home.php" class="breadcrumb-badge text-decoration-none mt-3">
                             Home / About Us
@@ -544,7 +544,7 @@
 
                         </div>
 
-                        <section class="tj-evolute-area" style="margin-top:150px;">
+                        <section class="tj-evolute-area" style="margin-top:150px; position: absolute;">
                             <div class="container-xxl-fluid  p-0 d-none d-xxl-block">
                                 <div class="row g-0">
                                     <div class="col-lg-7">
@@ -680,7 +680,112 @@
                 <div class="row justify-content-center align-content-center">
                     <div class="col-lg-10 p-5 mt-5">
                         <div class="row justify-content-center align-content-center">
-                            <div class="col-lg-9 col-md-12 justify-content-center align-content-center">
+                       
+                            <div class="container py-5">
+
+                                <!-- Title -->
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <p class=" fw-bold d-flex align-items-center justify-content-start gap-2 gold-text">
+                                                    <span>•</span>
+                                                    ABOUT OUR COMPANY
+                                                    <span>•</span>
+                                                </p>
+                                                <h1 class="heading-black">Crafting success tailored solution for each & every challenges</h1>
+
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p class="mt-4 paragraph-dark">Our mission is to empowers businesses off all size to thrive in an businesses ever changing marketplace. We are committed to the delivering exceptional in the value through our strategic inset. </br>
+                                                    <a href="#" style="font-size:14px; color:#1a73e8; text-decoration:none;">See all posts</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Featured Post -->
+                                <div class="row mb-5">
+                                    <div class="col-md-6">
+                                        <img src="assets/images/dubai.png"
+                                            style="width:100%; height:300px; object-fit:cover;">
+                                    </div>
+
+                                    <div class="col-md-6 d-flex flex-column justify-content-start">
+                                        <small style="color:#666;">30 Mar 2024</small>
+                                        <h3 style="font-weight:700; margin-top:10px;">
+                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                                        </h3>
+                                        <p style="color:#666; font-size:14px; line-height:1.6;">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ullam, nam fugit necessitatibus unde atque sint ipsum nobis assumenda ipsa velit officiis architecto eius sequi aliquid expedita reiciendis quos nesciunt.
+                                        </p>
+                                        <a href="#" class="btn btn-outline-dark rounded-pill"
+                                            style="width:max-content; padding:5px 15px;">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="row g-4">
+                                    <div class="col-md-4">
+                                        <img src="assets/images/dubai.png"
+                                            style="width:100%; height:240px; object-fit:cover; ">
+                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                                        <h6 style="font-weight:700; margin-top:5px;">
+                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                                        </h6>
+                                        <p style="color:#666; font-size:14px;">
+                                            At Explore Markets, we specialize in supporting businesses expanding into Central
+                                            and Eastern Europe (CEE).
+                                        </p>
+                                        <a href="#" class="btn btn-outline-dark rounded-pill"
+                                            style="width:max-content; padding:5px 15px;">
+                                            Read More
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="col-md-4">
+                                        <img src="assets/images/dubai.png"
+                                            style="width:100%; height:240px; object-fit:cover; ">
+                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                                        <h6 style="font-weight:700; margin-top:5px;">
+                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                                        </h6>
+                                        <p style="color:#666; font-size:14px;">
+                                            At Explore Markets, we specialize in supporting businesses expanding into Central
+                                            and Eastern Europe (CEE).
+                                        </p>
+                                        <a href="#" class="btn btn-outline-dark rounded-pill"
+                                            style="width:max-content; padding:5px 15px;">
+                                            Read More
+                                        </a>
+                                    </div>
+
+                                    <!-- Card 3 -->
+                                    <div class="col-md-4">
+                                        <img src="assets/images/dubai.png"
+                                            style="width:100%; height:240px; object-fit:cover;">
+                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                                        <h6 style="font-weight:700; margin-top:5px;">
+                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                                        </h6>
+                                        <p style="color:#666; font-size:14px;">
+                                            At Explore Markets, we specialize in supporting businesses expanding into Central
+                                            and Eastern Europe (CEE).
+                                        </p>
+                                        <a href="#" class="btn btn-outline-dark rounded-pill"
+                                            style="width:max-content; padding:5px 15px;">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                                 <div class="col-lg-9 col-md-12 justify-content-center align-content-center">
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-lg-12">
@@ -744,113 +849,6 @@
                                         <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
                                     </div>
 
-                                </div>
-
-                            </div>
-
-                            <div class="container py-5">
-
-                                <!-- Title -->
-                                <div class="d-flex justify-content-between align-items-center mb-4">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <p class=" fw-bold d-flex align-items-center justify-content-start gap-2 gold-text">
-                                                    <span>•</span>
-                                                    ABOUT OUR COMPANY
-                                                    <span>•</span>
-                                                </p>
-                                                <h1 class="heading-black">Crafting success tailored solution for each & every challenges</h1>
-
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <p class="mt-4 paragraph-dark">Our mission is to empowers businesses off all size to thrive in an businesses ever changing marketplace. We are committed to the delivering exceptional in the value through our strategic inset. </br>
-                                                    <a href="#" style="font-size:14px; color:#1a73e8; text-decoration:none;">See all posts</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- Featured Post -->
-                                <div class="row mb-5">
-                                    <div class="col-md-6">
-                                        <img src="assets/images/dubai.png"
-                                            style="width:100%; height:300px; object-fit:cover;">
-                                    </div>
-
-                                    <div class="col-md-6 d-flex flex-column justify-content-start">
-                                        <small style="color:#666;">30 Mar 2024</small>
-                                        <h3 style="font-weight:700; margin-top:10px;">
-                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
-                                        </h3>
-                                        <p style="color:#666; font-size:14px; line-height:1.6;">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ullam, nam fugit necessitatibus unde atque sint ipsum nobis assumenda ipsa velit officiis architecto eius sequi aliquid expedita reiciendis quos nesciunt.
-                                        </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
-                                            Read More
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Grid -->
-                                <div class="row g-4">
-
-                                    <!-- Card 1 -->
-                                    <div class="col-md-4">
-                                        <img src="assets/images/dubai.png"
-                                            style="width:100%; height:240px; object-fit:cover; ">
-                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
-                                        <h6 style="font-weight:700; margin-top:5px;">
-                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
-                                        </h6>
-                                        <p style="color:#666; font-size:14px;">
-                                            At Explore Markets, we specialize in supporting businesses expanding into Central
-                                            and Eastern Europe (CEE).
-                                        </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
-                                            Read More
-                                        </a>
-                                    </div>
-
-                                    <!-- Card 2 -->
-                                    <div class="col-md-4">
-                                        <img src="assets/images/dubai.png"
-                                            style="width:100%; height:240px; object-fit:cover; ">
-                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
-                                        <h6 style="font-weight:700; margin-top:5px;">
-                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
-                                        </h6>
-                                        <p style="color:#666; font-size:14px;">
-                                            At Explore Markets, we specialize in supporting businesses expanding into Central
-                                            and Eastern Europe (CEE).
-                                        </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
-                                            Read More
-                                        </a>
-                                    </div>
-
-                                    <!-- Card 3 -->
-                                    <div class="col-md-4">
-                                        <img src="assets/images/dubai.png"
-                                            style="width:100%; height:240px; object-fit:cover;">
-                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
-                                        <h6 style="font-weight:700; margin-top:5px;">
-                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
-                                        </h6>
-                                        <p style="color:#666; font-size:14px;">
-                                            At Explore Markets, we specialize in supporting businesses expanding into Central
-                                            and Eastern Europe (CEE).
-                                        </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
-                                            Read More
-                                        </a>
-                                    </div>
                                 </div>
 
                             </div>

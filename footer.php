@@ -430,7 +430,7 @@
 
         <div class="footer-bottom">
             <div class="copyright">
-                © 2025 <strong>Solvior</strong> All right reserved.
+                © 2025 <strong>Wings Capital</strong> All right reserved.
             </div>
 
             <div class="social-links">

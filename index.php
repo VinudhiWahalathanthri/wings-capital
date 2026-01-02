@@ -126,8 +126,6 @@
         <div class="col-12">
             <div class="row">
                 
-
-            
 <!-- 
                 <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent navbar-fixed">
                     <div class="container-fluid position-relative">

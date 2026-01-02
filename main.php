@@ -171,11 +171,12 @@
                         </div>
                     </section>
 
+                    <img src="assets/images/shapes/h4-hero-shape-1.svg" alt="Shapes">
                 </div>
             </div>
 
 
-             <div class="col-12" style="background-color: #0c0c0c;margin-top:80px;">
+              <div class="col-12" style="background-color: #0c0c0c;margin-top:80px;">
                     <div class="row mb-5">
                         <div class="col-12 mb-5" style="margin-top: -120px;">
                             <div class="row justify-content-center align-items-center">

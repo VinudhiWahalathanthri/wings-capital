@@ -8,10 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
-
-
-
-
+    
+    <link rel="stylesheet" href="bu.css">
     <style>
         * {
             margin: 0;
@@ -26,20 +24,35 @@
 
 
         .top-bar {
-            background: #262626ff;
+            background: #000;
             color: white;
-            padding: 9px 0;
-            font-size: 14px;
+            padding: 8px 0;
+            font-size: 13px;
+            position: fixed;
+            width: 100%;
+            left: 0;
+            z-index: 1001;
+            transition: all 0.4s ease;
+        }
+
+        .top-bar.scrolled {
+            background: #000;
+            color: white;
         }
 
         .top-bar a {
-            color: black;
+            color: white;
             text-decoration: none;
             font-weight: 700;
+            transition: color 0.4s ease;
+        }
+
+        .top-bar.scrolled a {
+            color: white;
         }
 
         .top-bar a:hover {
-            color: #000;
+            color: #D4AF37;
         }
 
         .top-bar-content {
@@ -58,45 +71,64 @@
         .top-bar-left {
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 20px;
         }
 
         .top-bar-right {
             display: flex;
             align-items: center;
-            gap: 25px;
+            gap: 30px;
         }
 
         .top-bar i {
             font-size: 12px;
         }
 
+        .social-icons {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 13px;
+            transition: color 0.3s;
+        }
+
+        .top-bar.scrolled .social-icons a {
+            color: white;
+        }
+
+        .social-icons a:hover {
+            color: #D4AF37;
+        }
+
         .main-nav {
             background: transparent;
-            padding: 25px 0;
+            padding: 12px 0;
             position: fixed;
             width: 100%;
             left: 0;
             z-index: 1000;
             transition: all 0.4s ease;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            margin-top: 30px;
+            margin-top: 38px;
         }
 
         .main-nav.scrolled {
-            background: #202020ff;
-            top: 0;
-            padding: 12px 0;
+            background: white;
             margin-top: 0;
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
 
         .main-nav.scrolled .nav-menu a {
-            color: #ffffffff;
+            color: black;
         }
 
         .main-nav.scrolled .explore-btn {
-            color: #000;
+            color: black;
         }
 
         .navbar-content {
@@ -111,19 +143,19 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            color: black;
+            color: white;
             text-decoration: none;
             font-size: 24px;
             font-weight: 600;
         }
 
         .logo-icon {
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: black;
+            color: white;
             font-size: 18px;
         }
 
@@ -137,23 +169,21 @@
         }
 
         .nav-menu a {
-            color: black;
+            color: white;
             text-decoration: none;
             font-size: 15px;
             display: flex;
             align-items: center;
             gap: 5px;
-            transition: color 0.3s;
+            transition: color 0.4s ease;
         }
 
         .nav-menu a:hover {
             color: #D4AF37;
-            /* gold hover */
         }
 
         .nav-menu a.active {
-            color: #C19B2D;
-            /* darker gold */
+            color: #D4AF37;
         }
 
         .nav-menu i {
@@ -172,13 +202,13 @@
         .explore-btn {
             background: transparent;
             border: none;
-            color: black;
+            color: white;
             display: flex;
             align-items: center;
             gap: 8px;
             cursor: pointer;
             font-size: 15px;
-            transition: color 0.3s;
+            transition: color 0.4s ease;
         }
 
         .explore-btn:hover {
@@ -203,7 +233,6 @@
 
         .quote-btn:hover {
             background: #C19B2D;
-            /* darker gold */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
 
@@ -238,19 +267,22 @@
         <div class="container">
             <div class="top-bar-content">
                 <div class="top-bar-left">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Trusted partner in business excellence</span>
-                    <a href="#"><span style="font-family: 'Lato', sans-serif;color: #eee;text-decoration: underline;">Join us now</span> <i class="fas fa-chevron-right"></i></a>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
                 <div class="top-bar-right">
                     <div>
-                        <i class="far fa-clock" style="margin-right:10px;"></i> Mon - Friday : 9:00 - 18:00
+                        <i class="fas fa-envelope" style="margin-right:8px;"></i> info@wingscapital.com
                     </div>
                     <div>
-                        <i class="far fa-envelope" style="margin-right:10px;"></i> support@solvior.com
+                        <i class="fas fa-map-marker-alt" style="margin-right:8px;"></i> 123 Business St, Dubai, UAE
                     </div>
                     <div>
-                        <i class="fas fa-globe" style="margin-right:10px;"></i> English <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-phone" style="margin-right:8px;"></i> +971 4 123 4567
                     </div>
                 </div>
             </div>
@@ -278,12 +310,21 @@
 
                 <div class="nav-right">
                     <button class="explore-btn">
-                        Request Loan <i class="fas fa-search"></i>
+                        Request Loan
                     </button>
-                    <button class="quote-btn">
-                        <i class="fas fa-arrow-right"></i>
-                        Book Consultation
-                    </button>
+                  <div class="submit-button">
+                <button type="submit" class="tj-primary-btn">
+                    <span class="btn_inner">
+                        <div class="btn_icon">
+                            <span>
+                                <i class="bi bi-arrow-right"></i>
+                                <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </div>
+                        <span class="btn_text"><span>Send message</span></span>
+                    </span>
+                </button>
+            </div>
                 </div>
             </div>
         </div>
@@ -292,10 +333,14 @@
     <script>
         window.addEventListener("scroll", function() {
             const nav = document.querySelector(".main-nav");
+            const topBar = document.querySelector(".top-bar");
+            
             if (window.scrollY > 30) {
                 nav.classList.add("scrolled");
+                topBar.classList.add("scrolled");
             } else {
                 nav.classList.remove("scrolled");
+                topBar.classList.remove("scrolled");
             }
         });
     </script>

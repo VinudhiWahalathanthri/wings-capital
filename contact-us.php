@@ -22,7 +22,7 @@
     <link rel="icon"
         href="assets/images/main/Wings.png">
 
-    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
 
     <style>
         .contact-card {
@@ -133,7 +133,6 @@
             font-size: 12px;
         }
 
-        /* Minimal input style */
         .minimal-input {
             width: 100%;
             border: none;
