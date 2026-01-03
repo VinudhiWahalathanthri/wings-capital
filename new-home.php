@@ -9,8 +9,6 @@
     <link rel="icon" href="./assets/images/wings logo.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 
     <link rel="stylesheet" href="uikit.css">
     <link rel="stylesheet" href="new-home.css">
@@ -19,10 +17,14 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.14/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.14/dist/js/uikit-icons.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 
     <style>
         * {
-            font-family: 'Montserrat' ;
+            font-family: 'Montserrat';
         }
 
 
@@ -58,23 +60,23 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.42);
+            background: rgba(0, 0, 0, 0.68);
         }
 
         .bg-image-1 {
             background-image: url('./resources/dubai.png');
-            animation: zoomFade 24s infinite;
+            /* animation: zoomFade 24s infinite; */
         }
 
         .bg-image-2 {
             background-image: url('./resources/srilanka.png');
-            animation: zoomFade 24s infinite 8s;
+            /* animation: zoomFade 24s infinite 8s; */
             opacity: 0;
         }
 
         .bg-image-3 {
             background-image: url('./resources/dubai.png');
-            animation: zoomFade 24s infinite 16s;
+            /* animation: zoomFade 24s infinite 16s; */
             opacity: 0;
         }
 
@@ -204,11 +206,11 @@
                 </div>
 
                 <!-- Content with Scrollspy -->
-                <div class="col-10 hero-content" style="margin-top: 150px;">
+                <div class="col-10 hero-content" style="padding: 20px; margin-top: 150px;">
                     <img style="position: absolute;" src="./resources/corner.png" width="90" uk-scrollspy="cls: uk-animation-fade; delay: 500; duration: 1000">
                     <div class="mt-5 ms-5">
-                        <h1 class="text-white fw-bold" style="font-size: 48px; margin-top:-10px;" uk-scrollspy="cls: uk-animation-slide-left; delay: 800; duration: 1200">Global Investment <br> Bank & Management<br>Consultancies Firm</h1>
-                        <p class="text-white mt-3" style="font-size: 26px;" uk-scrollspy="cls: uk-animation-slide-left; delay: 1100; duration: 1200">With deep roots in Asia</p>
+                        <h1 class="text-white fw-bold" style="font-size: 48px; margin-top:-10px; font-family: 'Montserrat';" uk-scrollspy="cls: uk-animation-slide-left; delay: 800; duration: 1200">Global Investment <br> Bank & Management<br>Consultancies Firm</h1>
+                        <p class="text-white mt-3 fw-bold" style="font-size: 30px;" uk-scrollspy="cls: uk-animation-slide-left; delay: 1100; duration: 1200">With deep roots in Asia</p>
                     </div>
 
                     <div class="col-12" style="margin-top:180px;">
@@ -236,9 +238,42 @@
 
                 </div>
 
-
-
             </div>
+
+
+              <div class="col-12">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p class=" fw-bold d-flex align-items-center justify-content-start gap-2 gold-text">
+                                        <span>•</span>
+                                        ABOUT OUR COMPANY
+                                        <span>•</span>
+                                    </p>
+                                    <h1 class="heading-black">Crafting success tailored solution for each & every challenges</h1>
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="mt-4 paragraph-dark">Our mission is to empowers businesses off all size to thrive in an businesses ever changing marketplace. We are committed to the delivering exceptional in the value through our strategic inset, innovative approaches. Our mission is to empower businesses of all sizes to thrive. </br>
+                                    </p>
+                                    <p class="mt-4 paragraph-dark"> Committed to the delivering exceptional in the value through our strategic inset, innovative approaches empower.</p>
+
+                                    <a href="about.html" class="tj-primary-btn mt-4">
+                                        <div class="btn_inner">
+                                            <div class="btn_icon">
+                                                <span>
+                                                    <i class="bi bi-arrow-right"></i>
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </span>
+                                            </div>
+                                            <div class="btn_text">
+                                                <span>Learn more</span>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
         </div>
     </div>
 

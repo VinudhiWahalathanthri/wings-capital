@@ -543,8 +543,19 @@
                             </div>
 
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <section class="tj-evolute-area" style="margin-top:150px; position: absolute;">
+
+            <div class="col-12">
+                
+            </div>
+
+            
+            <div class="col-12">
+                <div class="row">
+                    <section class="tj-evolute-area" style="margin-top:150px;">
                             <div class="container-xxl-fluid  p-0 d-none d-xxl-block">
                                 <div class="row g-0">
                                     <div class="col-lg-7">
@@ -580,7 +591,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-5">
+                                    <div class="col-lg-5" style="position: absolute;margin-top: 11px;right: 0px;">
                                         <div class="tj-evolute-image hover:shine">
                                             <img src="assets/images/NipunaWithShiekofujera.png" alt="evolute">
                                             <div class="about-video-box style-2">
@@ -646,8 +657,6 @@
                                 </div>
                             </div>
                         </section>
-                    </div>
-
                 </div>
             </div>
 
@@ -680,7 +689,7 @@
                 <div class="row justify-content-center align-content-center">
                     <div class="col-lg-10 p-5 mt-5">
                         <div class="row justify-content-center align-content-center">
-                       
+
                             <div class="container py-5">
 
                                 <!-- Title -->
@@ -690,30 +699,26 @@
                                             <div class="col-lg-6">
                                                 <p class=" fw-bold d-flex align-items-center justify-content-start gap-2 gold-text">
                                                     <span>•</span>
-                                                    ABOUT OUR COMPANY
+                                                    News & Articles
                                                     <span>•</span>
                                                 </p>
-                                                <h1 class="heading-black">Crafting success tailored solution for each & every challenges</h1>
+                                                <h1 class="heading-black">Recent News and Media Presence</h1>
 
                                             </div>
-                                            <div class="col-lg-6">
-                                                <p class="mt-4 paragraph-dark">Our mission is to empowers businesses off all size to thrive in an businesses ever changing marketplace. We are committed to the delivering exceptional in the value through our strategic inset. </br>
-                                                    <a href="#" style="font-size:14px; color:#1a73e8; text-decoration:none;">See all posts</a>
-                                                </p>
-                                            </div>
+
                                         </div>
                                     </div>
 
                                 </div>
 
                                 <!-- Featured Post -->
-                                <div class="row mb-5">
-                                    <div class="col-md-6">
+                                <div class="row mt-5 mb-5">
+                                    <div class="col-md-7">
                                         <img src="assets/images/dubai.png"
-                                            style="width:100%; height:300px; object-fit:cover;">
+                                            style="width:100%; height:350px; object-fit:cover; border-radius:12px;">
                                     </div>
 
-                                    <div class="col-md-6 d-flex flex-column justify-content-start">
+                                    <div class="col-md-5 d-flex flex-column justify-content-start">
                                         <small style="color:#666;">30 Mar 2024</small>
                                         <h3 style="font-weight:700; margin-top:10px;">
                                             International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
@@ -721,8 +726,8 @@
                                         <p style="color:#666; font-size:14px; line-height:1.6;">
                                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ullam, nam fugit necessitatibus unde atque sint ipsum nobis assumenda ipsa velit officiis architecto eius sequi aliquid expedita reiciendis quos nesciunt.
                                         </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
+                                        <a href="#" class="btn btn-outline-dark rounded-pill mb-4"
+                                            style="width:max-content; padding:5px 15px; margin-top:auto;">
                                             Read More
                                         </a>
                                     </div>
@@ -731,73 +736,88 @@
                                 <div class="row g-4">
                                     <div class="col-md-4">
                                         <img src="assets/images/dubai.png"
-                                            style="width:100%; height:240px; object-fit:cover; ">
-                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
-                                        <h6 style="font-weight:700; margin-top:5px;">
+                                            style="width:100%; height:240px; object-fit:cover;border-radius:12px;">
+                                        <small class="mt-4" style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                                        <h5 style="font-weight:700; margin-top:5px;">
                                             International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
-                                        </h6>
-                                        <p style="color:#666; font-size:14px;">
+                                        </h5>
+                                        <p class="mt-3" style="color:#666; font-size:14px;">
                                             At Explore Markets, we specialize in supporting businesses expanding into Central
                                             and Eastern Europe (CEE).
                                         </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
-                                            Read More
-                                        </a>
-                                    </div>
-                                    
-                                    <div class="col-md-4">
-                                        <img src="assets/images/dubai.png"
-                                            style="width:100%; height:240px; object-fit:cover; ">
-                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
-                                        <h6 style="font-weight:700; margin-top:5px;">
-                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
-                                        </h6>
-                                        <p style="color:#666; font-size:14px;">
-                                            At Explore Markets, we specialize in supporting businesses expanding into Central
-                                            and Eastern Europe (CEE).
-                                        </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
-                                            Read More
-                                        </a>
+
                                     </div>
 
-                                    <!-- Card 3 -->
                                     <div class="col-md-4">
                                         <img src="assets/images/dubai.png"
-                                            style="width:100%; height:240px; object-fit:cover;">
-                                        <small style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
-                                        <h6 style="font-weight:700; margin-top:5px;">
+                                            style="width:100%; height:240px; object-fit:cover;border-radius:12px;">
+                                        <small class="mt-4" style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                                        <h5 style="font-weight:700; margin-top:5px;">
                                             International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
-                                        </h6>
-                                        <p style="color:#666; font-size:14px;">
+                                        </h5>
+                                        <p class="mt-3" style="color:#666; font-size:14px;">
                                             At Explore Markets, we specialize in supporting businesses expanding into Central
                                             and Eastern Europe (CEE).
                                         </p>
-                                        <a href="#" class="btn btn-outline-dark rounded-pill"
-                                            style="width:max-content; padding:5px 15px;">
-                                            Read More
-                                        </a>
+
                                     </div>
+
+                                    <div class="col-md-4">
+                                        <img src="assets/images/dubai.png"
+                                            style="width:100%; height:240px; object-fit:cover;border-radius:12px;">
+                                        <small class="mt-4" style="color:#666; display:block; margin-top:10px;">30 Mar 2024</small>
+                                        <h5 style="font-weight:700; margin-top:5px;">
+                                            International Marketing and Sales : Creating a Powerful LinkedIn Profile for Export Success
+                                        </h5>
+                                        <p class="mt-3" style="color:#666; font-size:14px;">
+                                            At Explore Markets, we specialize in supporting businesses expanding into Central
+                                            and Eastern Europe (CEE).
+                                        </p>
+
+                                    </div>
+
+
                                 </div>
 
                             </div>
 
 
-                                 <div class="col-lg-9 col-md-12 justify-content-center align-content-center">
+                            <div class="col-12" style="margin-top:100px;">
                                 <div class="col-12">
                                     <div class="row">
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-6">
+                                            <p class=" fw-bold d-flex align-items-center justify-content-start gap-2 gold-text">
+                                                <span>•</span>
+                                                ABOUT OUR COMPANY
+                                                <span>•</span>
+                                            </p>
+                                            <h1 class="heading-black">Crafting success tailored solution for each & every challenges</h1>
 
-                                            <h1 class="heading-black text-center">International expansion <br />
-                                                consultants <span style="color: #e3be42ff;">trusted by over 100 companies</span></h1>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p class="mt-4 paragraph-dark">Our mission is to empowers businesses off all size to thrive in an businesses ever changing marketplace. We are committed to the delivering exceptional in the value through our strategic inset, innovative approaches. Our mission is to empower businesses of all sizes to thrive. </br>
+                                            </p>
+                                            <p class="mt-4 paragraph-dark"> Committed to the delivering exceptional in the value through our strategic inset, innovative approaches empower.</p>
+
+                                            <a href="about.html" class="tj-primary-btn mt-4">
+                                                <div class="btn_inner">
+                                                    <div class="btn_icon">
+                                                        <span>
+                                                            <i class="bi bi-arrow-right"></i>
+                                                            <i class="bi bi-arrow-right"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="btn_text">
+                                                        <span>Learn more</span>
+                                                    </div>
+                                                </div>
+                                            </a>
 
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="row text-center justify-content-center mt-4">
+                                <div class="row text-center justify-content-center mt-5">
                                     <div class="col-4 col-md-2 py-3">
                                         <img src="assets/images/partners/Airchateau.png" style="width:100%; object-fit:contain;">
                                     </div>

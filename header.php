@@ -7,7 +7,7 @@
     <title>Solvior Header</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mont:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="bu.css">
     <style>
@@ -18,13 +18,11 @@
         }
 
         body {
-            font-family: 'Lato', serif;
+            font-family: 'Mont', serif;
         }
 
-
-
         .top-bar {
-            background: #000;
+            background: #121c27;
             color: white;
             padding: 8px 0;
             font-size: 13px;
@@ -36,7 +34,8 @@
         }
 
         .top-bar.scrolled {
-            background: #000;
+            display: block;
+            background: #121c27;
             color: white;
         }
 
@@ -117,7 +116,6 @@
 
         .main-nav.scrolled {
             background: white;
-            margin-top: 0;
             padding: 10px 0;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
@@ -150,8 +148,8 @@
         }
 
         .logo-icon {
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
