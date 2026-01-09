@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Mont:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="bu.css">
+    <link rel="stylesheet" href="button.css">
     <style>
         * {
             margin: 0;
@@ -104,7 +104,7 @@
         }
 
         .main-nav {
-            background: transparent;
+            background: white;
             padding: 12px 0;
             position: fixed;
             width: 100%;

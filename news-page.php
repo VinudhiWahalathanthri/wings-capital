@@ -214,7 +214,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <?php include 'header.php'; ?>
+            <?php include 'header2.php'; ?>
 
             <div class="hero-section d-flex justify-content-center align-items-center text-center">
                 <div class="hero-content p-4">
@@ -358,12 +358,8 @@
                                             At Explore Markets, we specialize in supporting businesses expanding into Central
                                             and Eastern Europe (CEE).
                                         </p>
-
                                     </div>
-
-
                                 </div>
-
                             </div>
                         </div>
                     </div>
